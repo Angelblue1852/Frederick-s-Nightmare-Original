@@ -1,0 +1,10 @@
+﻿units = {
+	navy = {
+		name = "Carrier Group Hamilton"
+		base = 788				#Norfolk
+		location = 788			#Norfolk
+		ship = { name = "USS Alexander Hamilton" definition = carrier equipment = { carrier_1 = { amount = 1 owner = USA } }
+			air_wings = { cv_fighter_equipment_0 =  { owner = "USA" amount = 30 } }
+		}
+	}
+}

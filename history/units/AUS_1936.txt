@@ -1,0 +1,528 @@
+﻿division_template = {
+	name = "Heeresdivision"
+	
+	division_names_group = AUS_INF_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+	
+	priority = 2
+}
+division_template = {
+	name = "Tschechen-Div."
+	
+	division_names_group = AUS_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	
+	support = {
+	}
+	
+	is_locked = yes
+	priority = 0
+}
+division_template = {
+	name = "Polen-Div."
+	
+	division_names_group = AUS_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	
+	support = {
+	}
+	
+	is_locked = yes
+	priority = 0
+}
+division_template = {
+	name = "Italiener-Div."
+	
+	division_names_group = AUS_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	
+	support = {
+	}
+	
+	is_locked = yes
+	priority = 0
+}
+division_template = {
+	name = "Rumänen-Div."
+	
+	division_names_group = AUS_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	
+	support = {
+	}
+	
+	is_locked = yes
+	priority = 0
+}
+division_template = {
+	name = "Kroaten-Div."
+	
+	division_names_group = AUS_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	
+	support = {
+	}
+	
+	is_locked = yes
+	priority = 0
+}
+division_template = {
+	name = "Ungarn-Div."
+	
+	division_names_group = AUS_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	
+	support = {
+	}
+	
+	is_locked = yes
+	priority = 0
+}
+division_template = {
+	name = "Panzerdivision"
+	
+	division_names_group = AUS_INF_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 0 y = 3 }
+		light_armor = { x = 0 y = 4 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	
+	priority = 2
+}
+division_template = {
+	name = "Reiterbrigade"
+	
+	division_names_group = AUS_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	
+	support = {
+	}
+	
+	priority = 0
+}
+division_template = {
+	name = "Festungsbrigade"
+	
+	division_names_group = AUS_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+	
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "Kaiserliche Panzertruppe"
+		location = 11666		#Wien
+		division_template = "Panzerdivision"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	#Infantry
+	division = {
+		name = "Schutztruppe Wien I"
+		location = 11666		#Wien
+		division_template = "Festungsbrigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Schutztruppe Wien II"
+		location = 11666		#Wien
+		division_template = "Festungsbrigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Schutztruppe Budapest"
+		location = 9660		#Budapest
+		division_template = "Festungsbrigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Schutztruppe Venedig"
+		location = 11584	#Venice
+		division_template = "Festungsbrigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Schutztruppe Prag"
+		location = 11542	#Prag
+		division_template = "Festungsbrigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Schutztruppe Lemberg"
+		location = 11479	#Lwow
+		division_template = "Festungsbrigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Schutztruppe Zagreb"
+		location = 11581	#Zagreb
+		division_template = "Festungsbrigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	#Cavalry
+	division = {
+		name = "Hilfstruppe Slowakei"
+		location = 9692		#Bratislava
+		division_template = "Reiterbrigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Hilfstruppe Ukraine"
+		location = 11479	#Lwow
+		division_template = "Reiterbrigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	#Austro-German Forces
+	division = {
+		name = "1. Heeresdivision"
+		location = 9648		#Graz
+		division_template = "Heeresdivision"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "2. Heeresdivision"
+		location = 688		#Salzburg
+		division_template = "Heeresdivision"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "3. Heeresdivision"
+		location = 673		#Innsbruck
+		division_template = "Heeresdivision"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "4. Heeresdivision"
+		location = 9692		#Bratislava
+		division_template = "Heeresdivision"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "5. Heeresdivision"
+		location = 9570		#Breslau
+		division_template = "Heeresdivision"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	#Hungarians
+	division = {
+		name = "1. Ungarische Division"
+		location = 9660		#Budapest
+		division_template = "Ungarn-Div."
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "2. Ungarische Division"
+		location = 6573		#Kosice
+		division_template = "Ungarn-Div."
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "3. Ungarische Division"
+		location = 11610	#Pecs
+		division_template = "Ungarn-Div."
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	#Italians
+	division = {
+		name = "1. Italienische Division"
+		location = 6626		#Trieste
+		division_template = "Italiener-Div."
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	#Croatians
+	division = {
+		name = "1. Kroatische Division"
+		location = 3924		#Split
+		division_template = "Kroaten-Div."
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "2. Kroatische Division"
+		location = 11899	#Sarajevo
+		division_template = "Kroaten-Div."
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	#Czechs
+	division = {
+		name = "1. Tschechische Division"
+		location = 3569		#Brno
+		division_template = "Tschechen-Div."
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "2. Tschechische Division"
+		location = 11542	#Prag
+		division_template = "Tschechen-Div."
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "3. Tschechische Division"
+		location = 11542	#Prag
+		division_template = "Tschechen-Div."
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	#Romanians
+	division = {
+		name = "1. Rumänische Division"
+		location = 6682		#Arad
+		division_template = "Rumänen-Div."
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	#Poles
+	division = {
+		name = "1. Polnische Division"
+		location = 9427		#Krakow
+		division_template = "Rumänen-Div."
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+
+	navy = {
+		name = "Kriegsflotte"
+		base = 3943		#Zara
+		location = 3943		#Zara
+		ship = { name = "Österreich" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Franz Joseph" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Erzherzog" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Ungarn" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Italien" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Böhmen" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Wien" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Salzburg" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Innsbruck" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Graz" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Leopold Berchtold" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Conrad von Hötzendorf" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Straußenburg" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Donau" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Lemberg" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Prag" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Venedig" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Zagreb" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "Laibach" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+	}
+	navy = {
+		name = "Unterseeabteilung"
+		base = 11584	#Venice
+		location = 11584	#Venice
+		ship = { name = "UbA" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "UbB" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AUS } } }
+		ship = { name = "UbC" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AUS } } }
+	}
+}
+
+air_wings = {
+	4 = {
+		fighter_equipment_0 = {
+			owner = "GER" 
+			amount = 98
+		}
+		name = "JG Wien"
+	}
+	4 = {
+		tac_bomber_equipment_0 = {
+			owner = "GER" 
+			amount = 33
+		}
+		name = "KG Wien"
+	}
+	153 = {
+		fighter_equipment_0 = {
+			owner = "GER" 
+			amount = 48
+		}
+		name = "JG Innsbruck"
+	}
+	43 = {
+		fighter_equipment_0 = {
+			owner = "GER" 
+			amount = 39
+		}
+		name = "JG Budapest"
+	}
+	66 = {
+		fighter_equipment_0 = {
+			owner = "GER" 
+			amount = 31
+		}
+		name = "JG Breslau"
+	}
+	66 = {
+		tac_bomber_equipment_0 = {
+			owner = "GER" 
+			amount = 19
+		}
+		name = "KG Breslau"
+	}
+	91 = {
+		fighter_equipment_0 = {
+			owner = "GER" 
+			amount = 34
+		}
+		name = "JG Lemberg"
+	}
+}
+
+air_wings = {
+	66 = {
+		fighter_equipment_0 = { owner = "AUS" amount = 32 }
+		name = "JG Schlesien"
+	}
+	9 = {
+		fighter_equipment_0 = { owner = "AUS" amount = 29 }
+		name = "JG Böhmen"
+	}
+	9 = {
+		tac_bomber_equipment_0 = { owner = "AUS" amount = 21 }
+		name = "KG Böhmen"
+	}
+	91 = {
+		fighter_equipment_0 = { owner = "AUS" amount = 45 }
+		name = "JG Galizien"
+	}
+	91 = {
+		tac_bomber_equipment_0 = { owner = "AUS" amount = 17 }
+		name = "KG Galizien"
+	}
+	153 = {
+		fighter_equipment_0 = { owner = "AUS" amount = 43 }
+		name = "JG Tirol"
+	}
+	43 = {
+		fighter_equipment_0 = { owner = "AUS" amount = 47 }
+		name = "JG Ungarn"
+	}
+}
+
+instant_effect = {
+}

@@ -1,0 +1,433 @@
+﻿division_template = {
+	name = "Infantry Division"
+
+	division_names_group = ENG_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+	}
+}
+division_template = {
+	name = "Motorized Division"
+
+	division_names_group = ENG_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+        motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+        motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	
+	priority = 2
+}
+division_template = {
+	name = "Armored Division"
+	
+	division_names_group = ENG_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+        motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+        motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 2 y = 3 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	
+	priority = 2
+}
+division_template = {
+	name = "Colonial Brigade"
+	
+	division_names_group = ENG_INF_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+	
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "1st English Armored"
+		location = 6103		#London
+		division_template = "Armored Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "2nd English Armored"
+		location = 9297		#Birmingham
+		division_template = "Armored Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "1st Scottish Armored"
+		location = 9392		#Edinburgh
+		division_template = "Armored Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	
+	division = {
+		name = "1st English Infantry"
+		location = 6384		#Liverpool
+		division_template = "Motorized Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "2nd English Infantry"
+		location = 9458		#Portsmouth
+		division_template = "Motorized Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "3rd English Infantry"
+		location = 6103		#London
+		division_template = "Motorized Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "4th English Infantry"
+		location = 6318		#Manchester
+		division_template = "Motorized Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "5th English Infantry"
+		location = 3369		#Bristol
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "6th English Infantry"
+		location = 9379		#Leeds
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "7th English Infantry"
+		location = 11253	#Norwich
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "8th English Infantry"
+		location = 11297	#Hull
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "9th English Infantry"
+		location = 9297		#Birmingham
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "10th English Infantry"
+		location = 351		#Newcastle
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "11th English Infantry"
+		location = 540		#Plymouth
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "12th English Infantry"
+		location = 3501		#Dover
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	
+	division = {
+		name = "1st Welsh Infantry"
+		location = 377		#Cardiff
+		division_template = "Motorized Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "2nd Welsh Infantry"
+		location = 377		#Cardiff
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	
+	division = {
+		name = "1st Scottish Infantry"
+		location = 3273		#Glasgow
+		division_template = "Motorized Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "2nd Scottish Infantry"
+		location = 11064	#Scapa Flow
+		division_template = "Motorized Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "3rd Scottish Infantry"
+		location = 9392		#Edinburgh
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "4th Scottish Infantry"
+		location = 6300		#Rosyth
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	
+	division = {
+		name = "Colonial Garrison Yemen"
+		location = 5074		#Aden
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Colonial Garrison Singapore"
+		location = 12299	#Singapore
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Colonial Garrison Bermuda"
+		location = 13010	#Bermuda
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+
+	navy = {
+		name = "1st English Battle Fleet"
+		base = 11374	#London Harbor
+		location = 11374	#London Harbor
+		ship = { name = "BRS Britannia" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ENG } }
+			air_wings = { cv_fighter_equipment_0 =  { owner = "ENG" amount = 30 } }
+		}
+		ship = { name = "BRS England" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Liverpool" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Bermuda" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Birmingham" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS William Gladstone" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Manchester" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Benjamin Disraeli" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Saint Helena" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Arabia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS New South Wales" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Queensland" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Kuala Lumpur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Scapa Flow" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Acts of Union" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Neville Chamberlain" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+	}
+	navy = {
+		name = "2nd English Battle Fleet"
+		base = 540		#Plymouth
+		location = 540		#Plymouth
+		ship = { name = "BRS London" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Bristol" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS English Lion" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Plymouth" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Portsmouth" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Cornwall" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+	}
+	navy = {
+		name = "1st Welsh Battle Fleet"
+		base = 377		#Cardiff
+		location = 377		#Cardiff
+		ship = { name = "BRS Wales" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Cardiff" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Swansea" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Newport" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Welsh Dragon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Red Dragon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+	}
+	navy = {
+		name = "1st Scottish Battle Fleet"
+		base = 6395		#Glasgow Harbor
+		location = 6395		#Glasgow Harbor
+		ship = { name = "BRS Scotland" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Australia" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Ireland" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS America" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS British Africa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS British Guyana" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Glasgow" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Edinburgh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Ullapool" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Inverness" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+	}
+	navy = {
+		name = "1st Colonial Battle Fleet"
+		base = 12299	#Singapore
+		location = 12299	#Singapore
+		ship = { name = "BRS Borussia" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ENG } }
+			air_wings = { cv_fighter_equipment_0 =  { owner = "ENG" amount = 30 } }
+		}
+		ship = { name = "BRS New Zealand" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Singapore" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Malaya" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Rebirth" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Julius" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Augustus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS William of Prussia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Kota Bharu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS James Watt" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+	}
+	navy = {
+		name = "2nd Colonial Battle Fleet"
+		base = 12406	#Sydney
+		location = 12406	#Sydney
+		ship = { name = "BRS Pacific" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Atlantic" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Darwin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Sydney" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "BRS Melbourne" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+	}
+	navy = {
+		name = "1st Submarine Fleet"
+		base = 11064	#Scapa Flow
+		location = 11064	#Scapa Flow
+		ship = { name = "S1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S5" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S8" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S19" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S21" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S23" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S27" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+	}
+	navy = {
+		name = "2nd Submarine Fleet"
+		base = 11297	#Hull
+		location = 11297	#Hull
+		ship = { name = "S3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S9" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S10" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S11" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S12" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S14" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+	}
+	navy = {
+		name = "3rd Submarine Fleet"
+		base = 10297	#Kuala Lumpur
+		location = 10297	#Kuala Lumpur
+		ship = { name = "S6" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S15" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S16" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S17" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S18" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S24" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S25" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S26" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+	}
+	navy = {
+		name = "4th Submarine Fleet"
+		base = 5074		#Aden
+		location = 5074		#Aden
+		ship = { name = "S2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S7" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S13" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S20" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "S22" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG } } }
+	}
+}
+
+air_wings = {
+	127 = {
+		fighter_equipment_0 = {
+			owner = "ENG" 
+			amount = 76
+		}
+		name = "Fighter Group I"
+	}
+	132 = {
+		fighter_equipment_0 = {
+			owner = "ENG" 
+			amount = 46
+		}
+		name = "Fighter Group II"
+	}
+	120 = {
+		fighter_equipment_0 = {
+			owner = "ENG" 
+			amount = 52
+		}
+		name = "Fighter Group III"
+	}
+	336 = {
+		fighter_equipment_0 = {
+			owner = "ENG" 
+			amount = 13
+		}
+		name = "Fighter Group IV"
+	}
+}
+
+instant_effect = {
+}

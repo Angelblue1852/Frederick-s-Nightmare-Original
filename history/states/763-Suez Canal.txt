@@ -1,0 +1,25 @@
+state={
+	id=763
+	name="STATE_763"
+	provinces={
+		1155 4073 9947 12049 
+	}
+	manpower=12249
+	
+	state_category = state_level_2
+	
+	history = {
+		owner = FRA
+		add_core_of = EGY
+		add_claim_by = TUR
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			12049 = { naval_base = 4 }
+			4073 = { naval_base = 3 }
+			9947 = { naval_base = 1 }
+		}
+	}
+	
+	buildings_max_level_factor=1.000
+}

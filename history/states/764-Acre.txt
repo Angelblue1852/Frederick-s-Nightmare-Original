@@ -1,0 +1,22 @@
+state={
+	id=764
+	name="STATE_764"
+	provinces={
+		2198 5216 10960 
+	}
+	manpower=10240
+	
+	state_category = state_level_2
+	
+	history = {
+		owner = PRU
+		add_core_of = PRU
+		add_core_of = BRA
+		
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	
+	buildings_max_level_factor=1.000
+}

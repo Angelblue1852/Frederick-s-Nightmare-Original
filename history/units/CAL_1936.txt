@@ -1,0 +1,153 @@
+﻿division_template = {
+	name = "Infantry Division"
+	
+	division_names_group = BRENGL_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+	}
+	
+	support = {
+	}
+}
+division_template = {
+	name = "Motorized Division"
+	
+	division_names_group = BRENGL_INF_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+        motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1st Division"
+		location = 9814
+		division_template = "Motorized Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.95
+	}
+	division = {
+		name = "2nd Division"
+		location = 9671
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.95
+	}
+	division = {
+		name = "3rd Division"
+		location = 9814
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.95
+	}
+	division = {
+		name = "4th Division"
+		location = 9713
+		division_template = "Motorized Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.95
+	}
+	division = {
+		name = "5th Division"
+		location = 1562
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.95
+	}
+	division = {
+		name = "6th Division"
+		location = 7315
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.95
+	}
+	division = {
+		name = "7th Division"
+		location = 3513
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.95
+	}
+	division = {
+		name = "8th Division"
+		location = 1690
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.95
+	}
+	
+	navy = {
+		name = "1st Fleet"
+		base = 1562
+		location = 1562
+		ship = { name = "Californian Republic" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAL } } }
+		ship = { name = "California" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = CAL } } }
+		ship = { name = "Nevada" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = CAL } } }
+		ship = { name = "San Diego" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CAL } } }
+		ship = { name = "Spokane" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAL } } }
+		ship = { name = "Mariano G. Vallejo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL } } }
+	}
+	navy = {
+		name = "2nd Fleet"
+		base = 12211
+		location = 12211
+		ship = { name = "Oregon" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = CAL } } }
+		ship = { name = "Seattle" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CAL } } }
+		ship = { name = "San Francisco" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CAL } } }
+		ship = { name = "Sacramento" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAL } } }
+		ship = { name = "Mark Twain" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL } } }
+		ship = { name = "William Stephens" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL } } }
+	}
+	navy = {
+		name = "3rd Fleet"
+		base = 7315
+		location = 7315
+		ship = { name = "Washington" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = CAL } } }
+		ship = { name = "Los Angeles" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CAL } } }
+		ship = { name = "Portland" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAL } } }
+		ship = { name = "Las Vegas" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAL } } }
+		ship = { name = "Benjamin Harrison" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL } } }
+		ship = { name = "James K. Polk" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL } } }
+	}
+}
+
+air_wings = {
+	386 = {
+		fighter_equipment_0 = { owner = "CAL" amount = 32 }
+	}
+	378 = {
+		fighter_equipment_0 = { owner = "CAL" amount = 41 }
+	}
+	378 = {
+		tac_bomber_equipment_0 = { owner = "CAL" amount = 14 }
+	}
+	378 = {
+		tac_bomber_equipment_0 = { owner = "CAL" amount = 12 }
+	}
+}
+
+instant_effect = {
+}

@@ -1,0 +1,29 @@
+state={
+	id=729
+	name="STATE_729"
+	manpower = 157805
+	
+	state_category = state_level_2
+	
+	history={
+		owner = SPR
+		add_core_of = CHI
+		victory_points = {
+			4189 1 
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			anti_air_building = 1
+			4189 = {
+				naval_base = 2
+				bunker = 1
+				coastal_bunker = 1
+			}
+		}
+	}
+	
+	provinces={
+		4189 
+	}
+}
