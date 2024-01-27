@@ -1,0 +1,11 @@
+has_ford_crisis = {
+	custom_trigger_tooltip = {
+		tooltip = "Ford Crisis is ongoing."
+		OR = {
+			has_idea = ford_crisis
+			has_idea = ford_crisis2
+			has_idea = ford_crisis3
+			has_idea = ford_crisis4
+		}
+	}
+}

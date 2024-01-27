@@ -1,0 +1,16 @@
+interested_in_CZE = {
+	if = {
+		limit = { CZE = { exists = yes } }
+		OR = {
+			original_tag = CZE
+			is_neighbor_of = CZE
+		}
+	}
+	if = {
+		limit = { CZE = { exists = no } }
+		OR = {
+			any_owned_state = { is_core_of = CZE }
+			any_neighbor_state = { is_core_of = CZE }
+		}
+	}
+}

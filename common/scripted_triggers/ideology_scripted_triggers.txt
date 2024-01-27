@@ -1,0 +1,100 @@
+committed_to_autocracy = {
+	OR = {
+		neutrality > 0.5
+		has_completed_focus = generic_authoritarian_ambitions
+	}
+}
+committed_to_communism = {
+	OR = {
+		communism > 0.5
+		has_completed_focus = generic_communist_tendencies
+	}
+}
+committed_to_democracy = {
+	OR = {
+		democratic > 0.5
+		has_completed_focus = generic_democratic_ideals
+	}
+}
+committed_to_fascism = {
+	OR = {
+		fascism > 0.5
+		has_completed_focus = generic_fascistic_reforms
+	}
+}
+
+has_same_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = "Has the same ruling ideology."
+		OR = {
+			AND = {
+				THIS = { has_government = communism }
+				ROOT = { has_government = communism }
+			}
+			AND = {
+				THIS = { has_government = democratic }
+				ROOT = { has_government = democratic }
+			}
+			AND = {
+				THIS = { has_government = neutrality }
+				ROOT = { has_government = neutrality }
+			}
+			AND = {
+				THIS = { has_government = fascism }
+				ROOT = { has_government = fascism }
+			}
+		}
+	}
+}
+has_similar_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = "Has the same or a somewhat similar ideology."
+		OR = {
+			AND = {
+				THIS = { has_government = communism }
+				OR = {
+					ROOT = { has_government = communism }
+					ROOT = { has_government = democratic }
+				}
+			}
+			AND = {
+				THIS = { has_government = democratic }
+				OR = {
+					ROOT = { has_government = communism }
+					ROOT = { has_government = democratic }
+					ROOT = { has_government = neutrality }
+				}
+			}
+			AND = {
+				THIS = { has_government = neutrality }
+				OR = {
+					ROOT = { has_government = democratic }
+					ROOT = { has_government = neutrality }
+					ROOT = { has_government = fascism }
+				}
+			}
+			AND = {
+				THIS = { has_government = fascism }
+				OR = {
+					ROOT = { has_government = neutrality }
+					ROOT = { has_government = fascism }
+				}
+			}
+		}
+	}
+}
+has_far_away_ideology = {
+	custom_trigger_tooltip = {
+		tooltip = "Is on the other extreme of the political spectrum."
+		OR = {
+			AND = {
+				THIS = { has_government = communism }
+				ROOT = { has_government = fascism }
+			}
+			AND = {
+				THIS = { has_government = fascism }
+				ROOT = { has_government = communism }
+			}
+		}
+	}
+}

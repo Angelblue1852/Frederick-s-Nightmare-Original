@@ -1,0 +1,31 @@
+has_colonial_upkeep = {
+	OR = {
+		has_idea = colonial_upkeep
+		has_idea = colonial_upkeep2
+		has_idea = colonial_upkeep3
+		has_idea = colonial_upkeep4
+		has_idea = colonial_upkeep5
+	}
+}
+
+has_economic_crisis = {
+	OR = {
+		has_idea = economic_crisis
+		has_idea = economic_crisis2
+		has_idea = economic_crisis3
+		has_idea = economic_crisis4
+		has_idea = economic_crisis5
+		has_idea = economic_crisis6
+		has_idea = economic_crisis7
+		has_idea = economic_crisis8
+		has_idea = economic_crisis9
+		has_idea = economic_crisis10
+	}
+}
+
+has_islamic_state_religion = {
+	OR = {
+		has_idea = state_religion_sunni
+		has_idea = state_religion_shia
+	}
+}

@@ -1,0 +1,15 @@
+﻿add_namespace = quebec
+
+#Setup Event
+country_event = {
+	id = quebec.1
+	title = quebec.1.t
+	desc = quebec.1.d
+	picture = GFX_report_event_royal_visit
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = quebec.1.o1
+	}
+}

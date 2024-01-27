@@ -1,0 +1,49 @@
+leader_traits = {
+
+	
+##################################
+# Common Traits
+##################################
+	JAP_samurai_lineage = { #TODO_WTT_ART icon
+		type = all
+		allowed = {
+			always = no # not gainable
+		}
+		modifier = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	JAP_communist_sympathizer = { #TODO_WTT_ART icon
+		type = all
+		allowed = {
+			always = no # not gainable
+		}
+		modifier = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+##################################
+# Field Marshal traits.
+##################################
+	
+##################################
+# Corps Commander traits.
+##################################
+	
+##################################
+# Corps Commander assignabme traits.
+##################################
+
+##################################
+# Naval traits.
+##################################

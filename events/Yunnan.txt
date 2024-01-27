@@ -1,0 +1,15 @@
+﻿add_namespace = yunnan
+
+#Setup Event
+country_event = {
+	id = yunnan.1
+	title = yunnan.1.t
+	desc = yunnan.1.d
+	picture = GFX_report_event_chinese_officers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = yunnan.1.o1
+	}
+}

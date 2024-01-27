@@ -1,0 +1,26 @@
+is_minor_chinese_state = {
+	OR = {
+		original_tag = SHX
+		original_tag = TIB
+		original_tag = SIK
+		original_tag = GXC
+		original_tag = XSM
+		original_tag = YUN
+	}
+}
+
+is_chinese_warlord = {
+	OR = {
+		original_tag = SHX
+		original_tag = TIB
+		original_tag = SIK
+		original_tag = GXC
+		original_tag = XSM
+		original_tag = YUN
+	}
+	NOT = { has_government = democratic }
+}
+
+is_literally_china = {
+	original_tag = CHI
+}
