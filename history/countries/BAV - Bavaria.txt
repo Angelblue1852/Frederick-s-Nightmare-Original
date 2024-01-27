@@ -1,0 +1,136 @@
+﻿capital = 52
+
+set_research_slots = 3
+
+set_stability = 0.5
+set_war_support = 0.5
+
+oob = "BAV_1936"
+set_convoys = 10
+
+add_offsite_building = { type = industrial_complex level = 3 }
+add_offsite_building = { type = arms_factory level = 1 }
+
+set_variable = { autocratic_insurgency_progress = 0 }
+set_variable = { communist_insurgency_progress = 0 }
+set_variable = { democratic_insurgency_progress = 0 }
+set_variable = { fascist_insurgency_progress = 0 }
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	motorised_infantry = 1
+	
+	tech_support = 1
+	
+	gw_artillery = 1
+	
+	gwtank = 1
+	basic_light_tank = 1
+	
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	transport = 1
+	early_carrier = 1
+	early_submarine = 1
+	
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+}
+
+add_ideas = {
+	dynamic_trade
+	laissez_faire
+	moralism
+	assertiveness
+}
+add_ideas = {
+	economic_crisis
+}
+add_ideas = {
+	aristocratic_elites
+	catholic_clergy
+	crown_loyalists
+}
+
+set_politics = {
+	parties = {
+		democratic = { popularity = 18 }
+		fascism = { popularity = 4 }
+		communism = { popularity = 31 }
+		neutrality = { popularity = 47 }
+	}
+	ruling_party = neutrality
+	last_election = "1935.5.25"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+#Reserve Leader
+create_country_leader = {
+	name = "Franz-Josef Strauß"
+	ideology = oligarchism
+	picture = "Franz_Josef_Strauss.dds"
+}
+create_country_leader = {
+	name = "Georg Stang"
+	ideology = authoritarian_conservatism
+	picture = "Georg_Stang.dds"
+}
+create_country_leader = {
+	name = "Anton Drexler"
+	ideology = nazism
+	picture = "Anton_Drexler.dds"
+}
+create_country_leader = {
+	name = "Eugen Leviné"
+	ideology = leninism
+	picture = "Eugen_Levine.dds"
+}
+
+create_field_marshal = {
+	name = "Konrad von Dellmensingen"
+	picture = "generals/Konrad_von_Dellmensingen.dds"
+	traits = { defensive_doctrine }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Alfred Jodl"
+	picture = "generals/Alfred_Jodl.dds"
+	traits = { commando }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Wilhelm Ritter von Leeb"
+	picture = "generals/Wilhelm_Ritter_von_Leeb.dds"
+	traits = { winter_specialist }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Sepp Dietrich"
+	picture = "generals/Sepp_Dietrich.dds"
+	traits = { ranger }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}

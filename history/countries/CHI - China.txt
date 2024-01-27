@@ -1,0 +1,143 @@
+﻿capital = 613 # Nanjing
+
+set_research_slots = 3
+
+set_stability = 0.4
+set_war_support = 0.55
+
+oob = "CHI_1936"
+set_convoys = 100
+
+add_offsite_building = { type = industrial_complex level = 3 }
+add_offsite_building = { type = arms_factory level = 1 }
+
+set_variable = { autocratic_insurgency_progress = 0 }
+set_variable = { communist_insurgency_progress = 0 }
+set_variable = { democratic_insurgency_progress = 0 }
+set_variable = { fascist_insurgency_progress = 0 }
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	motorised_infantry = 1
+	
+	tech_support = 1
+	
+	gw_artillery = 1
+	
+	gwtank = 1
+	basic_light_tank = 1
+	
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	transport = 1
+	early_carrier = 1
+	early_submarine = 1
+	
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+}
+
+give_guarantee = MON
+give_guarantee = SIK
+give_guarantee = TIB
+give_guarantee = YUN
+
+add_opinion_modifier = { target = JAP modifier = historical_rival }
+add_opinion_modifier = { target = JAP modifier = recent_war }
+
+add_ideas = {
+	protectionism
+	state_capitalism
+	pluralism
+	jingoism
+}
+add_ideas = {
+	lessons_of_humiliation
+	economic_crisis6
+}
+add_ideas = {
+	agricultural_barons
+	aristocratic_elites
+	ultra_nationalists
+}
+
+set_politics = {
+	parties = {
+		democratic = { popularity = 6 }
+		fascism = { popularity = 44 }
+		communism = { popularity = 10 }
+		neutrality = { popularity = 40 }
+	}
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Hu Hanmin"
+	ideology = ultra_nationalism
+	picture = "Hu_Hanmin.dds"
+}
+create_country_leader = {
+	name = "Chiang Kai-shek"
+	ideology = despotism
+	picture = "Chiang_Kai_Shek.dds"
+}
+create_country_leader = {
+	name = "Chen Duxiu"
+	ideology = marxism
+	picture = "Chen_Duxiu.dds"
+}
+create_country_leader = {
+	name = "Wang Jingwei"
+	ideology = liberalism
+	picture = "Wang_Jingwei.dds"
+}
+
+create_field_marshal = {
+	name = "Feng Gouzhang"
+	picture = "generals/Feng_Gouzhang.dds"
+	traits = { defensive_doctrine }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Chen Cheng"
+	picture = "generals/Chen_Cheng.dds"
+	traits = { ranger infantry_leader }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Cai Genyin"
+	picture = "generals/Cai_Genyin.dds"
+	traits = { old_guard organizer skilled_staffer }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Bai Chongxi"
+	picture = "generals/Bai_Chongxi.dds"
+	traits = { old_guard cavalry_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}

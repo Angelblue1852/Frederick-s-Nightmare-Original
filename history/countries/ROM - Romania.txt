@@ -1,0 +1,101 @@
+﻿capital = 46
+
+set_research_slots = 3
+
+set_stability = 0.5
+set_war_support = 0.5
+
+oob = "ROM_1936"
+set_convoys = 100
+
+add_offsite_building = { type = industrial_complex level = 3 }
+add_offsite_building = { type = arms_factory level = 1 }
+
+set_variable = { autocratic_insurgency_progress = 0 }
+set_variable = { communist_insurgency_progress = 0 }
+set_variable = { democratic_insurgency_progress = 0 }
+set_variable = { fascist_insurgency_progress = 0 }
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	motorised_infantry = 1
+	
+	tech_support = 1
+	
+	gw_artillery = 1
+	
+	gwtank = 1
+	basic_light_tank = 1
+	
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	transport = 1
+	early_carrier = 1
+	early_submarine = 1
+	
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+}
+
+set_politics = {
+	parties = {
+		democratic = { popularity = 30 }
+		fascism = { popularity = 20 }
+		communism = { popularity = 40 }
+		neutrality = { popularity = 10 }
+	}
+	ruling_party = communism
+	last_election = "1935.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Gheorghe Gheorghiu-Dej"
+	picture = "Gheorghe_Gheorghiu_Dej.dds"
+	ideology = leninism
+}
+
+create_country_leader = {
+	name = "Carol II"
+	picture = "Carol_II.dds"
+	ideology = despotism
+}
+
+create_field_marshal = {
+	name = "Gheorghe Manoliu"
+	picture = "generals/Gheorghe_Manoliu.dds"
+	traits = { old_guard }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Petre Dumitrescu"
+	picture = "generals/Petre_Dumitrescu.dds"
+	traits = { skilled_staffer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Leonard Mociulschi"
+	picture = "generals/Leonard_Mociulschi.dds"
+	traits = { trait_mountaineer }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}

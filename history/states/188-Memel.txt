@@ -1,0 +1,28 @@
+state=
+{
+	id=188
+	name="STATE_188"
+	manpower = 150000
+	
+	
+	state_category = state_level_6
+	
+	history = {
+		owner = PRS
+		add_core_of = PRS
+		add_core_of = LIT
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			3288 = {
+				naval_base = 1
+			}
+		}
+		
+		set_state_flag = german_core_state
+	}
+
+	provinces={
+		3288 	
+	}
+}

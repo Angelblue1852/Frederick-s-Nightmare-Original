@@ -1,0 +1,102 @@
+﻿capital = 41
+
+set_research_slots = 3
+
+set_stability = 0.45
+set_war_support = 0.35
+
+oob = "SPR_1936"
+set_convoys = 240
+
+add_offsite_building = { type = industrial_complex level = 3 }
+add_offsite_building = { type = arms_factory level = 1 }
+
+set_variable = { autocratic_insurgency_progress = 0 }
+set_variable = { communist_insurgency_progress = 0 }
+set_variable = { democratic_insurgency_progress = 0 }
+set_variable = { fascist_insurgency_progress = 0 }
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	motorised_infantry = 1
+	
+	tech_support = 1
+	
+	gw_artillery = 1
+	
+	gwtank = 1
+	basic_light_tank = 1
+	
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	transport = 1
+	early_carrier = 1
+	early_submarine = 1
+	
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+}
+
+add_ideas = {
+	protectionism
+	planned_economy
+	atheism
+	assertiveness
+}
+add_ideas = {
+	colonial_upkeep3
+}
+add_ideas = {
+	anti_government_militias
+}
+
+add_opinion_modifier = { target = SPR modifier = recent_war }
+
+create_faction = barcelona_agreement
+add_to_faction = ITA
+
+give_guarantee = GXC
+
+set_politics = {
+	parties = {
+		democratic = { popularity = 37 }
+		fascism = { popularity = 19 }
+		communism = { popularity = 41 }
+		neutrality = { popularity = 4 }
+	}
+	
+	ruling_party = communism
+	last_election = "1934.5.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "José Diaz Ramos"
+	picture = "Jose_Diaz_Ramos.dds"
+	ideology = marxism
+}
+
+create_country_leader = {
+	name = "Alfonso XIII"
+	picture = "Alfonso_XIII.dds"
+	ideology = despotism
+}
+
+create_country_leader = {
+	name = "Alejandro Lerroux"
+	picture = "Alejandro_Lerroux.dds"
+	ideology = liberalism
+}
+
+create_country_leader = {
+	name = "José Sanjurjo"
+	picture = "Jose_Sanjurjo.dds"
+	ideology = falangism
+}

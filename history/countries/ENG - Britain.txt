@@ -1,0 +1,193 @@
+﻿capital = 126
+
+set_research_slots = 4
+
+set_stability = 0.65
+set_war_support = 0.55
+
+oob = "ENG_1936"
+set_convoys = 800
+
+add_offsite_building = { type = industrial_complex level = 3 }
+add_offsite_building = { type = arms_factory level = 1 }
+
+set_variable = { autocratic_insurgency_progress = 0 }
+set_variable = { communist_insurgency_progress = 0 }
+set_variable = { democratic_insurgency_progress = 0 }
+set_variable = { fascist_insurgency_progress = 0 }
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	motorised_infantry = 1
+	
+	tech_support = 1
+	
+	gw_artillery = 1
+	
+	gwtank = 1
+	basic_light_tank = 1
+	
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battlecruiser = 1
+	basic_battlecruiser = 1
+	early_battleship = 1
+	basic_battleship = 1
+	transport = 1
+	early_carrier = 1
+	basic_carrier = 1
+	early_submarine = 1
+	basic_submarine = 1
+	
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+	
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+}
+
+add_ideas = {
+	libertarian_trade
+	laissez_faire
+	secularism
+	jingoism
+}
+add_ideas = {
+	colonial_upkeep2
+	economic_crisis2
+}
+add_ideas = {
+	labor_unions
+	liberal_reformers
+	protestant_clergy
+	radical_socialists
+}
+
+create_faction = british_commonwealth
+
+puppet = AST
+
+add_opinion_modifier = { target = FRA modifier = historical_rival }
+add_opinion_modifier = { target = OHI modifier = historical_rival }
+add_opinion_modifier = { target = PRS modifier = historical_ally }
+
+give_guarantee = POR
+
+set_politics = {
+	parties = {
+		democratic = { popularity = 46 }
+		fascism = { popularity = 4 }
+		communism = { popularity = 37 }
+		neutrality = { popularity = 13 }
+	}
+	ruling_party = democratic
+	last_election = "1934.5.12"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+#Reserve Leader
+create_country_leader = {
+	name = "Herbert Morrison"
+	ideology = socialism
+	picture = "Herbert_Morrison.dds"
+}
+create_country_leader = {
+	name = "Ramsay MacDonald"
+	ideology = liberalism
+	picture = "Ramsay_MacDonald.dds"
+}
+create_country_leader = {
+	name = "Austen Chamberlain"
+	ideology = ultra_nationalism
+	picture = "Austen_Chamberlain.dds"
+}
+create_country_leader = {
+	name = "James Maxton"
+	ideology = marxism
+	picture = "James_Maxton.dds"
+}
+create_country_leader = {
+	name = "Royal Council"
+	ideology = despotism
+	picture = "Royal_Council.dds"
+}
+
+create_field_marshal = {
+	name = "Harold Alexander"
+	picture = "generals/Harold_Alexander.dds"
+	traits = { offensive_doctrine }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+create_field_marshal = {
+	name = "Bernard Montgomery"
+	picture = "generals/Bernard_Montgomery.dds"
+	traits = { defensive_doctrine }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 2
+	logistics_skill = 6
+}
+create_field_marshal = {
+	name = "Archibald Wavell"
+	picture = "generals/Archibald_Wavell.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "John Vereker"
+	picture = "generals/John_Vereker.dds"
+	traits = { ranger }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Hugh Dowding"
+	picture = "generals/Hugh_Dowding.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Andrew Cunningham"
+	picture = "admirals/Andrew_Cunningham.dds"
+	traits = { blockade_runner }
+	skill = 5
+}
+create_navy_leader = {
+	name = "Louis Mountbatten"
+	picture = "admirals/Louis_Mountbatten.dds"
+	traits = { seawolf }
+	skill = 4
+}
+create_navy_leader = {
+	name = "Dudley Pound"
+	picture = "admirals/Dudley_Pound.dds"
+	traits = { ironside }
+	skill = 3
+}

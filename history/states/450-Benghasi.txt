@@ -1,0 +1,29 @@
+
+state={
+	id=450
+	name="STATE_450"
+	manpower = 82535
+	
+	state_category = state_level_3
+
+	history={
+		owner = NAP
+		add_core_of = LBA
+		add_claim_by = ITA
+		
+		victory_points = {
+			11954 3 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			11954 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		1127 4120 10123 11954 
+	}
+}

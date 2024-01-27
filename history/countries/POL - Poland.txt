@@ -1,0 +1,127 @@
+﻿capital = 10
+
+set_research_slots = 2
+
+set_stability = 0.5
+set_war_support = 0.5
+
+oob = "POL_1936"
+set_convoys = 100
+
+add_offsite_building = { type = industrial_complex level = 3 }
+add_offsite_building = { type = arms_factory level = 1 }
+
+set_variable = { autocratic_insurgency_progress = 0 }
+set_variable = { communist_insurgency_progress = 0 }
+set_variable = { democratic_insurgency_progress = 0 }
+set_variable = { fascist_insurgency_progress = 0 }
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	motorised_infantry = 1
+	
+	tech_support = 1
+	
+	gw_artillery = 1
+	
+	gwtank = 1
+	basic_light_tank = 1
+	
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	transport = 1
+	early_carrier = 1
+	early_submarine = 1
+	
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+}
+
+add_ideas = {
+	dynamic_trade
+	laissez_faire
+	moralism
+	pacifism
+}
+add_ideas = {
+	polish_independence_movement
+}
+add_ideas = {
+	catholic_clergy
+}
+
+set_politics = {
+	parties = {
+		democratic = { popularity = 22 }
+		fascism = { popularity = 21 }
+		communism = { popularity = 8 }
+		neutrality = { popularity = 49 }
+	}
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Polish Sejm"
+	picture = "Polish_Sejm.dds"
+	ideology = oligarchism
+}
+
+create_corps_commander = {
+	name = "Edward Rydz-Smigly"
+	picture = "generals/Edward_Rydz_Smigly.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Mariusz Zaruski"
+	picture = "generals/Mariusz_Zaruski.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Sosnkowski Kazimierz"
+	picture = "generals/Sosnkowski_Kazimierz.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Stanislaw Sosabowski"
+	picture = "generals/Stanislaw_Sosabowski.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Wladyslaw Sikorski"
+	picture = "generals/Wladyslaw_Sikorski.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}

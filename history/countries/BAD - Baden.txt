@@ -1,0 +1,136 @@
+﻿capital = 50
+
+set_research_slots = 3
+
+set_stability = 0.5
+set_war_support = 0.5
+
+oob = "BAD_1936"
+set_convoys = 100
+
+add_offsite_building = { type = industrial_complex level = 3 }
+add_offsite_building = { type = arms_factory level = 1 }
+
+set_variable = { autocratic_insurgency_progress = 0 }
+set_variable = { communist_insurgency_progress = 0 }
+set_variable = { democratic_insurgency_progress = 0 }
+set_variable = { fascist_insurgency_progress = 0 }
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	motorised_infantry = 1
+	
+	tech_support = 1
+	
+	gw_artillery = 1
+	
+	gwtank = 1
+	basic_light_tank = 1
+	
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	transport = 1
+	early_carrier = 1
+	early_submarine = 1
+	
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+}
+
+add_opinion_modifier = { target = HES modifier = dreibruederabkommen }
+add_opinion_modifier = { target = WES modifier = dreibruederabkommen }
+
+add_ideas = {
+	libertarian_trade
+	laissez_faire
+	pluralism
+	pacifism
+}
+add_ideas = {
+	economic_crisis
+}
+add_ideas = {
+	labor_unions
+	liberal_monarchists
+}
+
+set_politics = {
+	parties = {
+		democratic = { popularity = 48 }
+		fascism = { popularity = 11 }
+		communism = { popularity = 23 }
+		neutrality = { popularity = 18 }
+	}
+	ruling_party = democratic
+	last_election = "1935.4.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Josef Duffner"
+	ideology = conservatism
+	picture = "Josef_Duffner.dds"
+}
+create_country_leader = {
+	name = "Hans Frank"
+	ideology = nazism
+	picture = "Hans_Frank.dds"
+}
+create_country_leader = {
+	name = "Max Bock"
+	ideology = marxism
+	picture = "Max_Bock.dds"
+}
+create_country_leader = {
+	name = "Berthold von Baden"
+	ideology = despotism
+	picture = "Berthold.dds"
+}
+
+create_field_marshal = {
+	name = "Walther von Reichenau"
+	picture = "generals/Walther_von_Reichenau.dds"
+	traits = { offensive_doctrine }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Walter Krüger"
+	picture = "generals/Walter_Kruger.dds"
+	traits = { organizer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Hermann Ehrhardt"
+	picture = "generals/Hermann_Ehrhardt.dds"
+	traits = { trickster }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Rudolf Höss"
+	picture = "generals/Rudolf_Hoess.dds"
+	traits = { fortress_buster }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}

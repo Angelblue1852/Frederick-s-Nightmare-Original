@@ -1,0 +1,25 @@
+
+state={
+	id=184
+	name="STATE_184"
+	manpower = 382500
+	
+	state_category = state_level_6
+	
+	resources={
+		chromium=16
+	}
+
+	history={
+		owner = TUR
+		add_core_of = BUL
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		6990 9791 9930 11774 11905 
+	}
+}

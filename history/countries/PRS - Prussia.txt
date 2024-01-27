@@ -1,0 +1,226 @@
+﻿capital = 64
+
+set_research_slots = 4
+
+set_stability = 0.6
+set_war_support = 0.6
+
+oob = "PRS_1936"
+set_convoys = 150
+
+add_offsite_building = { type = industrial_complex level = 3 }
+add_offsite_building = { type = arms_factory level = 1 }
+
+set_variable = { autocratic_insurgency_progress = 0 }
+set_variable = { communist_insurgency_progress = 0 }
+set_variable = { democratic_insurgency_progress = 0 }
+set_variable = { fascist_insurgency_progress = 0 }
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	motorised_infantry = 1
+	
+	tech_support = 1
+	
+	gw_artillery = 1
+	
+	gwtank = 1
+	basic_light_tank = 1
+	
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	transport = 1
+	early_carrier = 1
+	basic_carrier = 1
+	early_submarine = 1
+	basic_submarine = 1
+	
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+}
+
+add_ideas = {
+	dynamic_trade
+	laissez_faire
+	secularism
+	assertiveness
+}
+add_ideas = {
+	prussian_militarism
+	economic_crisis
+	colonial_upkeep
+}
+add_ideas = {
+	crown_loyalists
+	liberal_reformers
+	protestant_clergy
+}
+
+give_guarantee = HAN
+give_guarantee = SAX
+give_guarantee = SHX
+give_guarantee = THU
+
+add_opinion_modifier = { target = AUS modifier = historical_rival }
+add_opinion_modifier = { target = ENG modifier = historical_ally }
+add_opinion_modifier = { target = FRA modifier = historical_rival }
+add_opinion_modifier = { target = PRS modifier = historical_rival }
+
+set_politics = {
+	parties = {
+		democratic = { popularity = 63 }
+		fascism = { popularity = 5 }
+		communism = { popularity = 11 }
+		neutrality = { popularity = 21 }
+	}
+	ruling_party = democratic
+	last_election = "1933.9.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Otto Wels"
+	ideology = socialism
+	picture = "Otto_Wels.dds"
+}
+create_country_leader = {
+	name = "Wilhelm II"
+	ideology = despotism
+	picture = "Wilhelm_II.dds"
+}
+create_country_leader = {
+	name = "Kurt von Schleicher"
+	ideology = fascism_ideology
+	picture = "Kurt_von_Schleicher.dds"
+}
+create_country_leader = {
+	name = "Rosa Luxemburg"
+	ideology = anarchist_communism
+	picture = "Rosa_Luxemburg.dds"
+}
+
+create_field_marshal = {
+	name = "Gerd von Rundstedt"
+	picture = "generals/Gerd_von_Rundstedt.dds"
+	traits = { defensive_doctrine }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+	id = 101
+}
+create_field_marshal = {
+	name = "Erich Ludendorff"
+	picture = "generals/Erich_Ludendorff.dds"
+	traits = { old_guard }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 5
+	logistics_skill = 1
+	id = 102
+}
+create_field_marshal = {
+	name = "August von Mackensen"
+	picture = "generals/August_von_Mackensen.dds"
+	traits = { old_guard }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	id = 103
+}
+
+create_corps_commander = {
+	name = "Erich von Manstein"
+	picture = "generals/Erich_von_Manstein.dds"
+	traits = { panzer_leader }
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 4
+	id = 104
+}
+create_corps_commander = {
+	name = "Erwin von Witzleben"
+	picture = "generals/Erwin_von_Witzleben.dds"
+	traits = { old_guard infantry_leader skilled_staffer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+	id = 105
+}
+create_corps_commander = {
+	name = "Hasso von Manteuffel"
+	picture = "generals/Hasso_von_Manteuffel.dds"
+	traits = { panzer_leader }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+	id = 106
+}
+create_corps_commander = {
+	name = "Fedor von Bock"
+	picture = "generals/Fedor_von_Bock.dds"
+	traits = { infantry_leader }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+	id = 107
+}
+create_corps_commander = {
+	name = "Georg von Küchler"
+	picture = "generals/Georg_von_Kuechler.dds"
+	traits = { ranger }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+	id = 108
+}
+create_corps_commander = {
+	name = "Carl-Heinrich von Stülpnagel"
+	picture = "generals/Carl_Heinrich_von_Stuelpnagel.dds"
+	traits = { skilled_staffer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+	id = 109
+}
+
+create_navy_leader = {
+	name = "Karl Dönitz"
+	picture = "admirals/Karl_Doenitz.dds"
+	traits = { seawolf }
+	skill = 5
+	id = 110
+}
+create_navy_leader = {
+	name = "Erich Raeder"
+	picture = "admirals/Erich_Raeder.dds"
+	traits = { spotter fly_swatter }
+	skill = 4
+	id = 111
+}

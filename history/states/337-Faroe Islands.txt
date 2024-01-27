@@ -1,0 +1,21 @@
+state=
+{
+	id=337
+	name="STATE_337"
+	manpower = 25900
+	
+	state_category = state_level_2
+	
+	history=
+	{
+		owner = SWE
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 4
+			13003 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces= { 13003 }
+}

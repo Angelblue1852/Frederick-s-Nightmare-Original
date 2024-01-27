@@ -1,0 +1,153 @@
+spriteTypes = {	
+	
+	### decision icons
+
+	spriteType = {
+		name = "GFX_decision_unknown"
+		texturefile = "gfx/interface/decisions/DI_generic.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_generic_decision"
+		texturefile = "gfx/interface/decisions/DI_generic.dds"
+	}
+	
+	#economy
+
+	spriteType = {
+		name = "GFX_decision_DI_aluminium"
+		texturefile = "gfx/interface/decisions/economy/DI_aluminium.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_chromium"
+		texturefile = "gfx/interface/decisions/economy/DI_chromium.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_construction"
+		texturefile = "gfx/interface/decisions/economy/DI_construction.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_industry"
+		texturefile = "gfx/interface/decisions/economy/DI_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_mefo"
+		texturefile = "gfx/interface/decisions/economy/DI_mefo.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_military_industry"
+		texturefile = "gfx/interface/decisions/economy/DI_military_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_oil"
+		texturefile = "gfx/interface/decisions/economy/DI_oil.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_research"
+		texturefile = "gfx/interface/decisions/economy/DI_research.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_rubber"
+		texturefile = "gfx/interface/decisions/economy/DI_rubber.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_steel"
+		texturefile = "gfx/interface/decisions/economy/DI_steel.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_tungsten"
+		texturefile = "gfx/interface/decisions/economy/DI_tungsten.dds"
+	}
+	
+	#ideology
+	
+	spriteType = {
+		name = "GFX_decision_DI_nationalism"
+		texturefile = "gfx/interface/decisions/ideology/DI_nationalism.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_nazism"
+		texturefile = "gfx/interface/decisions/ideology/DI_nazism.dds"
+	}
+	
+	#military
+	
+	spriteType = {
+		name = "GFX_decision_DI_air_force"
+		texturefile = "gfx/interface/decisions/military/DI_air_force.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_army"
+		texturefile = "gfx/interface/decisions/military/DI_army.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_navy"
+		texturefile = "gfx/interface/decisions/military/DI_navy.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_tank"
+		texturefile = "gfx/interface/decisions/military/DI_tank.dds"
+	}
+	
+	#politics
+	
+	spriteType = {
+		name = "GFX_decision_DI_border_war"
+		texturefile = "gfx/interface/decisions/politics/DI_border_war.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_break_treaty"
+		texturefile = "gfx/interface/decisions/politics/DI_break_treaty.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_central_america"
+		texturefile = "gfx/interface/decisions/politics/DI_central_america.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_civil_support"
+		texturefile = "gfx/interface/decisions/politics/DI_civil_support.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_civil_war"
+		texturefile = "gfx/interface/decisions/politics/DI_civil_war.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_ignite_civil_war"
+		texturefile = "gfx/interface/decisions/politics/DI_ignite_civil_war.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_independence"
+		texturefile = "gfx/interface/decisions/politics/DI_independence.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_infiltrate_state"
+		texturefile = "gfx/interface/decisions/politics/DI_infiltrate_state.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_operation"
+		texturefile = "gfx/interface/decisions/politics/DI_operation.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_oppression"
+		texturefile = "gfx/interface/decisions/politics/DI_oppression.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_political_discourse"
+		texturefile = "gfx/interface/decisions/politics/DI_political_discourse.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_scorched_earth"
+		texturefile = "gfx/interface/decisions/politics/DI_scorched_earth.dds"
+	}
+	
+	#specific_countries
+	
+	spriteType = {
+		name = "GFX_decision_DI_CHI_war"
+		texturefile = "gfx/interface/decisions/specific_countries/DI_CHI_war.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_DI_JAP"
+		texturefile = "gfx/interface/decisions/specific_countries/DI_JAP.dds"
+	}
+	
+}

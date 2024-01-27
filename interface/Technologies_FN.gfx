@@ -1,0 +1,110 @@
+spriteTypes = {
+
+	### GERMAN EQUIPMENT ###
+
+	SpriteType = {
+		name = "GFX_PRS_motorized_rocket_unit_medium"
+		texturefile = "gfx/interface/technologies/PRS_motorized_rocket_unit.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_PRS_rocket_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_2_axis.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRS_rocket_artillery_medium"
+		texturefile = "gfx/interface/technologies/Rocket_Art_1_axis.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRS_artillery4_medium"
+		texturefile = "gfx/interface/technologies/Art_3_axis.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_PRS_artillery1_medium"
+		texturefile = "gfx/interface/technologies/Art_2_axis.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_PRS_gw_artillery_medium"
+		texturefile = "gfx/interface/technologies/Art_1_axis.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRS_antitank5_medium"
+		texturefile = "gfx/interface/technologies/AT_3_axis.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_PRS_antitank2_medium"
+		texturefile = "gfx/interface/technologies/AT_2_axis.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_PRS_interwar_antitank_medium"
+		texturefile = "gfx/interface/technologies/AT_1_axis.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRS_antiair5_medium"
+		texturefile = "gfx/interface/technologies/AA_3_axis.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_PRS_antiair2_medium"
+		texturefile = "gfx/interface/technologies/AA_2_axis.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_PRS_interwar_antiair_medium"
+		texturefile = "gfx/interface/technologies/AA_1_axis.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRS_mechanised_infantry3_medium"
+		texturefile = "gfx/interface/technologies/PRS_mechanized_equipment_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRS_mechanised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/PRS_mechanized_equipment_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRS_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/PRS_mechanized_equipment_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRS_infantry3_medium"
+		texturefile = "gfx/interface/technologies/PRS_infantry_equipment_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRS_infantry2_medium"
+		texturefile = "gfx/interface/technologies/PRS_infantry_equipment_2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_PRS_infantry1_medium"
+		texturefile = "gfx/interface/technologies/PRS_infantry_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRS_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PRS_infantry_equipment_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRS_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PRS_infantry_equipment_2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_PRS_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/PRS_infantry_equipment_1.dds"
+	}
+	
+}

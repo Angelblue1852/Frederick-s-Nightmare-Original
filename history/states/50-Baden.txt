@@ -1,0 +1,36 @@
+state={
+	id=50
+	name="STATE_50"
+	
+	resources={
+		aluminium=12.000
+		steel=2.000
+	}
+
+	history={
+		owner = BAD
+		add_core_of = BAD
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 7
+			air_base = 3
+			anti_air_building = 3
+		}
+		victory_points = { 6712 7 }		#Freiburg
+		victory_points = { 6568 3 }		#Heidelberg
+		victory_points = { 3530 3 }		#Karlsruhe
+		victory_points = { 6542 2 }		#Offenburg
+		
+		set_state_flag = german_core_state
+	}
+	
+	provinces={
+		694 3530 3679 3692 6542 6568 6712 11486 11640 
+	}
+	
+	manpower=3486854
+	buildings_max_level_factor=1.000
+	
+	state_category = state_level_17
+}

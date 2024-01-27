@@ -1,0 +1,229 @@
+﻿capital = 161
+
+set_research_slots = 3
+
+set_stability = 0.35
+set_war_support = 0.4
+
+oob = "ITA_1936"
+set_convoys = 100
+
+add_offsite_building = { type = industrial_complex level = 3 }
+add_offsite_building = { type = arms_factory level = 1 }
+
+set_variable = { autocratic_insurgency_progress = 0 }
+set_variable = { communist_insurgency_progress = 0 }
+set_variable = { democratic_insurgency_progress = 0 }
+set_variable = { fascist_insurgency_progress = 0 }
+
+#NATIONAL VARIABLES
+set_variable = { ITA_number_of_delegates = 343 }
+set_variable = { ITA_delegates_threshold = 0 }
+set_variable = { ITA_moderati_influence = 142 }
+set_variable = { ITA_protettori_influence = 114 }
+set_variable = { ITA_globalisti_influence = 53 }
+set_variable = { ITA_bolscevichi_influence = 34 }
+set_variable = { ITA_protettori_globalisti_alliance_value = 2 }
+set_variable = { ITA_protettori_globalisti_alliance_threshold = 5 }
+set_variable = { ITA_protettori_globalisti_alliance_sum = 0 }
+ITA_update_pci_threshold = yes
+ITA_update_protettori_globalisti_relations = yes
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	motorised_infantry = 1
+	
+	tech_support = 1
+	
+	gw_artillery = 1
+	
+	gwtank = 1
+	basic_light_tank = 1
+	
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	transport = 1
+	early_carrier = 1
+	basic_carrier = 1
+	early_submarine = 1
+	basic_submarine = 1
+	
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+}
+
+add_ideas = {
+	italian_monarchy_in_exile
+	pci_divided
+	colonial_upkeep5
+}
+add_ideas = {
+	dynamic_trade
+	economic_intervention
+	atheism
+	jingoism
+}
+add_ideas = {
+	labor_unions
+	liberal_reformers
+	radical_socialists
+}
+
+add_opinion_modifier = { target = AUS modifier = historical_rival }
+add_opinion_modifier = { target = PAP modifier = historical_rival }
+add_opinion_modifier = { target = NAP modifier = historical_rival }
+
+set_politics = {
+	parties = {
+		democratic = { popularity = 37 }
+		fascism = { popularity = 5 }
+		communism = { popularity = 42 }
+		neutrality = { popularity = 16 }
+	}
+	ruling_party = communism
+	last_election = "1934.6.22"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Palmiro Togliatti"
+	ideology = marxism
+	picture = "Palmiro_Togliatti.dds"
+}
+create_country_leader = {
+	name = "Alcide de Gasperi"
+	ideology = liberalism
+	picture = "Alcide_De_Gasperi.dds"
+}
+create_country_leader = {
+	name = "Edmondo Rossoni"
+	ideology = fascism_ideology
+	picture = "Edmondo_Rossoni.dds"
+}
+create_country_leader = {
+	name = "Vittorio Emanuele III"
+	ideology = despotism
+	picture = "Vittorio_Emanuele.dds"
+}
+
+create_field_marshal = {
+	name = "Pietro Badoglia"
+	picture = "generals/Pietro_Badoglio.dds"
+	traits = { old_guard thorough_planner }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Emilio De Bono"
+	picture = "generals/Emilio_De_Bono.dds"
+	traits = { old_guard defensive_doctrine }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Italo Gariboldi"
+	picture = "generals/Italo_Gariboldi.dds"
+	traits = { old_guard offensive_doctrine }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Vittorio Ambrosio"
+	picture = "generals/Vittorio_Ambrosio.dds"
+	traits = { skilled_staffer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Ugo Cavallero"
+	picture = "generals/Ugo_Cavallero.dds"
+	traits = { inflexible_strategist cavalry_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Guglielmo Giraldi"
+	picture = "generals/Guglielmo_Giraldi.dds"
+	traits = { infantry_leader trickster }
+	skill = 1
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Giuseppe Castellano"
+	picture = "generals/Giuseppe_Castellano.dds"
+	traits = { trickster infantry_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Edmondo Rossoni"
+	picture = "generals/Edmondo_Rossoni.dds"
+	traits = { politically_connected trait_engineer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Alfredo Guzzoni"
+	picture = "generals/Alfredo_Guzzoni.dds"
+	traits = { skilled_staffer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Ettore Bastico"
+	picture = "generals/Ettore_Bastico.dds"
+	traits = { bearer_of_artillery infantry_leader }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Pietro Gazzera"
+	picture = "generals/Pietro_Gazzera.dds"
+	traits = { skilled_staffer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}

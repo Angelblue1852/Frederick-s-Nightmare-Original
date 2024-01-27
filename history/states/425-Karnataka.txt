@@ -1,0 +1,31 @@
+
+state={
+	id=425
+	name="STATE_425"
+	resources={
+		chromium=20.000
+		tungsten=128.000
+	}
+
+	history={
+		owner = HYD
+		add_core_of = HYD
+		victory_points = {
+			8011 1 
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			industrial_complex = 1
+			10190 = { naval_base = 2 }
+			4395 = { naval_base = 1 }
+		}
+	}
+
+	provinces={
+		1412 4278 4291 4315 4344 4395 5032 7244 7250 7391 7411 8011 8100 10190 10208 10259 10799 12105 12146 12208 12295 12734 
+	}
+	manpower=12348200
+	buildings_max_level_factor=1.000
+	state_category=state_level_6
+}

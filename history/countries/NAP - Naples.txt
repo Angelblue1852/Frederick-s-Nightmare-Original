@@ -1,0 +1,130 @@
+﻿capital = 117
+
+set_research_slots = 3
+
+set_stability = 0.5
+set_war_support = 0.5
+
+oob = "NAP_1936"
+set_convoys = 100
+
+add_offsite_building = { type = industrial_complex level = 3 }
+add_offsite_building = { type = arms_factory level = 1 }
+
+set_variable = { autocratic_insurgency_progress = 0 }
+set_variable = { communist_insurgency_progress = 0 }
+set_variable = { democratic_insurgency_progress = 0 }
+set_variable = { fascist_insurgency_progress = 0 }
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	motorised_infantry = 1
+	
+	tech_support = 1
+	
+	gw_artillery = 1
+	
+	gwtank = 1
+	basic_light_tank = 1
+	
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	transport = 1
+	early_carrier = 1
+	early_submarine = 1
+	
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+}
+
+give_guarantee = EGY
+give_guarantee = GRE
+
+add_opinion_modifier = { target = ITA modifier = historical_rival }
+add_opinion_modifier = { target = PAP modifier = historical_ally }
+
+add_ideas = {
+	protectionism
+	state_capitalism
+	moralism
+	jingoism
+}
+add_ideas = {
+	limited_conscription
+	limited_exports
+}
+add_ideas = {
+	catholic_clergy
+	ultra_nationalists
+}
+
+set_politics = {
+	parties = {
+		democratic = { popularity = 25 }
+		fascism = { popularity = 45 }
+		communism = { popularity = 15 }
+		neutrality = { popularity = 15 }
+	}
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Achille Starace"
+	ideology = fascism_ideology
+	picture = "Achille_Starace.dds"
+}
+create_country_leader = {
+	name = "Ferdinando Pio"
+	ideology = despotism
+	picture = "Ferdinando_Pio.dds"
+}
+create_country_leader = {
+	name = "Enrico De Nicola"
+	ideology = conservatism
+	picture = "Enrico_De_Nicola.dds"
+}
+create_country_leader = {
+	name = "Randolfo Pacciardi"
+	ideology = stalinism
+	picture = "Randolfo_Pacciardi.dds"
+}
+
+create_corps_commander = {
+	name = "Giovanni Messe"
+	picture = "generals/Giovanni_Messe.dds"
+	traits = { armor_officer panzer_leader }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Taddeo Orlando"
+	picture = "generals/Taddeo_Orlando.dds"
+	traits = { skilled_staffer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Antonio Sorice"
+	picture = "generals/Antonio_Sorice.dds"
+	traits = { infantry_leader }
+	skill = 1
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}

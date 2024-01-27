@@ -1,0 +1,118 @@
+﻿capital = 141	
+
+set_research_slots = 4
+
+set_stability = 0.6
+set_war_support = 0.4
+
+oob = "SWE_1936"
+set_convoys = 400
+
+add_offsite_building = { type = industrial_complex level = 3 }
+add_offsite_building = { type = arms_factory level = 1 }
+
+set_variable = { autocratic_insurgency_progress = 0 }
+set_variable = { communist_insurgency_progress = 0 }
+set_variable = { democratic_insurgency_progress = 0 }
+set_variable = { fascist_insurgency_progress = 0 }
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	motorised_infantry = 1
+	
+	tech_support = 1
+	
+	gw_artillery = 1
+	
+	gwtank = 1
+	basic_light_tank = 1
+	
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	transport = 1
+	early_carrier = 1
+	early_submarine = 1
+	
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+}
+
+add_ideas = {
+	libertarian_trade
+	laissez_faire
+	secularism
+	diplomatic_solidarity
+}
+add_ideas = {
+	free_trade
+}	
+add_ideas = {
+	stockholm_crisis
+	colonial_upkeep
+	economic_crisis2
+	paragon_of_democracy
+}
+add_ideas = {
+	colonial_elites
+	labor_unions
+	protestant_clergy
+	suffragettes
+}
+
+add_opinion_modifier = { target = FRA modifier = historical_ally }
+add_opinion_modifier = { target = SOV modifier = historical_rival }
+add_opinion_modifier = { target = SPR modifier = recent_war }
+
+give_guarantee = GXC
+
+set_politics = {
+	parties = {
+		democratic = { popularity = 83 }
+		fascism = { popularity = 2 }
+		communism = { popularity = 12 }
+		neutrality = { popularity = 3 }
+	}
+	ruling_party = democratic
+	last_election = "1935.2.15"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Axel Pehrsson-Bramstorp"
+	ideology = socialism
+	picture = "Axel_Pehrsson_Bramstorp.dds"
+}
+create_country_leader = {
+	name = "Gustaf V"
+	ideology = despotism
+	picture = "Gustaf_V.dds"
+}
+
+create_field_marshal = {
+	name = "Olof Thörnell"
+	picture = "generals/Olof_Thoernell.dds"
+	traits = { defensive_doctrine }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Helge Jung"
+	picture = "generals/Helge_Jung.dds"
+	traits = { skilled_staffer }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=60
+	name="STATE_60"
+	manpower = 3005214
+	resources={
+		steel=20
+		chromium = 4
+		tungsten = 4
+	}
+	
+	state_category = state_level_13
+
+	history={
+		owner = THU
+		add_core_of = THU
+		victory_points = { 6524 5 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+		}
+		
+		set_state_flag = german_core_state
+	}
+
+	provinces={
+		425 482 538 3500 3561 6501 6524 6582 9497 
+	}
+}

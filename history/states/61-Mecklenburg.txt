@@ -1,0 +1,31 @@
+state={
+	id=61
+	name="STATE_61"
+	manpower = 836353
+
+
+	state_category = state_level_8
+
+	history={
+		owner = PRS
+		add_core_of = PRS
+		victory_points = {
+			321 1
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 3
+			321 = {
+				naval_base = 6
+
+			}
+			air_base = 3
+		}
+		
+		set_state_flag = german_core_state
+	}
+
+	provinces={
+		268 293 321 3258 9294 11276 11305 
+	}
+}

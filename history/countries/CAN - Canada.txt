@@ -1,0 +1,120 @@
+﻿capital = 468
+
+set_research_slots = 3
+
+set_stability = 0.5
+set_war_support = 0.5
+
+oob = "CAN_1936"
+set_convoys = 100
+
+add_offsite_building = { type = industrial_complex level = 3 }
+add_offsite_building = { type = arms_factory level = 1 }
+
+set_variable = { autocratic_insurgency_progress = 0 }
+set_variable = { communist_insurgency_progress = 0 }
+set_variable = { democratic_insurgency_progress = 0 }
+set_variable = { fascist_insurgency_progress = 0 }
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	motorised_infantry = 1
+	
+	tech_support = 1
+	
+	gw_artillery = 1
+	
+	gwtank = 1
+	basic_light_tank = 1
+	
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	transport = 1
+	early_carrier = 1
+	early_submarine = 1
+	
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+}
+
+add_ideas = {
+	libertarian_trade
+	economic_intervention
+	secularism
+	diplomatic_solidarity
+}
+add_ideas = {
+	free_trade
+}
+add_ideas = {
+	anglo_minority
+	franco_liberals
+	labor_unions
+}
+
+set_politics = {
+	parties = {
+		democratic = { popularity = 86 }
+		fascism = { popularity = 0 }
+		communism = { popularity = 2 }
+		neutrality = { popularity = 12 }
+	}
+	ruling_party = democratic
+	last_election = "1933.8.7"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Louis Saint-Laurent"
+	picture = "Louis_Saint_Laurent.dds"
+	ideology = liberalism
+}
+create_country_leader = {
+	name = "Richard Bedford Bennett"
+	picture = "Richard_Bedford_Bennett.dds"
+	ideology = authoritarian_conservatism
+}
+create_country_leader = {
+	name = "Adrien Arcand"
+	picture = "Adrien_Arcand.dds"
+	ideology = fascism_ideology
+}
+
+create_field_marshal = {
+	name = "Dollard Menard"
+	picture = "generals/Dollard_Menard.dds"
+	traits = { old_guard offensive_doctrine fast_planner }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Jean Allard"
+	picture = "generals/Jean_Allard.dds"
+	traits = { old_guard skilled_staffer winter_specialist }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Jacques Dextraze"
+	picture = "generals/Jacques_Dextraze.dds"
+	traits = { hill_fighter }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}

@@ -1,0 +1,93 @@
+﻿capital = 7
+
+set_research_slots = 4
+
+set_stability = 0.6
+set_war_support = 0.6
+
+oob = "HOL_1936"
+set_convoys = 100
+
+add_offsite_building = { type = industrial_complex level = 3 }
+add_offsite_building = { type = arms_factory level = 1 }
+
+set_variable = { autocratic_insurgency_progress = 0 }
+set_variable = { communist_insurgency_progress = 0 }
+set_variable = { democratic_insurgency_progress = 0 }
+set_variable = { fascist_insurgency_progress = 0 }
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	motorised_infantry = 1
+	
+	tech_support = 1
+	
+	gw_artillery = 1
+	
+	gwtank = 1
+	basic_light_tank = 1
+	
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	transport = 1
+	early_carrier = 1
+	early_submarine = 1
+	
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+	
+	#bicycle_infantry = 1		#TO DO: MAKE THIS MORE OF A MEME
+}
+
+add_ideas = {
+	libertarian_trade
+	laissez_faire
+	secularism
+	assertiveness
+}
+add_ideas = {
+	colonial_upkeep2
+}
+add_ideas = {
+	aristocratic_elites
+	colonial_elites
+	labor_unions
+}
+
+set_politics = {
+	parties = {
+		democratic = { popularity = 86 }
+		fascism = { popularity = 3 }
+		communism = { popularity = 6 }
+		neutrality = { popularity = 5 }
+	}
+	ruling_party = democratic
+	last_election = "1933.6.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Frans Beelaerts van Blokland"
+	ideology = conservatism
+	picture = "Frans_Beelaerts_van_Blokland.dds"
+}
+
+create_field_marshal = {
+	name = "Henri Winkelman"
+	picture = "generals/Henri_Winkelman.dds"
+	traits = { 
+		politically_connected
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
