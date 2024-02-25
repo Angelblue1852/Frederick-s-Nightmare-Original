@@ -4,11 +4,12 @@ state=
 	name="STATE_550"
 	manpower = 600600
 	
-	state_category = state_level_6
+	state_category = rural
 	
 	history=
 	{
 		owner = ETH
+		add_core_of = ERI
 		victory_points = {
 			12766 1
 		}

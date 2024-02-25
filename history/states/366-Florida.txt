@@ -4,12 +4,10 @@ state={
 	name="STATE_366"
 	manpower = 1468210
 	
-	state_category = state_level_11
+	state_category = city
 
 	history={
 		owner = CUB
-		add_core_of = CUB
-		add_claim_by = USA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3
@@ -27,6 +25,8 @@ state={
 				naval_base = 1
 			}
 		}
+		add_core_of = USA
+		add_core_of = CUB
 		victory_points = {
 			1843 5 
 		}

@@ -4,17 +4,19 @@ state={
 	name="STATE_445" # Quetta
 	manpower = 405100
 	
-	state_category = state_level_6
+	state_category = wasteland
 
 	history={
+		victory_points = {
+			5105 1
+		}
 		owner = MUG
-		add_core_of = PAK
 		add_core_of = MUG
 		buildings = {
 			infrastructure = 3
 			air_base = 4
-			industrial_complex = 1
 		}
+		add_core_of = PAK
 	}
 
 	provinces={

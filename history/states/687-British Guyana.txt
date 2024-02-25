@@ -3,15 +3,18 @@ state={
 	name="STATE_687"
 	manpower = 309000
 	
-	state_category = state_level_3
+	state_category = pastoral
 	
 	resources={
-		aluminium=112
+		aluminium=64 # was: 112
 	}
 
 	history={
+		add_core_of = GYA
 		owner = VEN
-		add_core_of = VEN
+		victory_points = {
+			4982 1
+		}
 		buildings = {
 			infrastructure = 2
 			4982 = {

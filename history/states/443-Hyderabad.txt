@@ -4,22 +4,23 @@ state={
 	name="STATE_443" # Sind
 	manpower = 3887000
 	
-	state_category = state_level_6
+	state_category = rural
 
 	history={
 		owner = MUG
-		add_core_of = PAK
 		add_core_of = MUG
 		victory_points = {
 			3456 3 
 		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
+			industrial_complex = 1
 			3456 = {
 				naval_base = 4
 			}
 		}
+		add_core_of = PAK
+
 	}
 
 	provinces={

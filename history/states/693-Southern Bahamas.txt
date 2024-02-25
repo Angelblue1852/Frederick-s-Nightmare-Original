@@ -3,9 +3,10 @@ state={
 	name="STATE_693"
 	manpower = 15000
 	
-	state_category = state_level_1
+	state_category = tiny_island
 
 	history={
+		add_core_of = BAH
 		owner = CUB
 		buildings = {
 			infrastructure = 4

@@ -1,33 +1,33 @@
-
 state={
 	id=105
-	name="STATE_105" # Montenegro
-	manpower = 895500
-	
-	state_category = state_level_11
-	
+	name="STATE_105"
 	resources={
-		chromium=36
-		aluminium=112
+		chromium=20.000
+		aluminium=70.000
 	}
 
 	history={
+		victory_points = {
+			9809 3
+		}
 		owner = MNT
 		add_core_of = MNT
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 4
-			arms_factory = 1
-			dockyard = 1
-			air_base = 4
+			infrastructure = 3
+			industrial_complex = 1
 			9809 = {
-				naval_base = 8
+				naval_base = 1
+
 			}
+
 		}
-		victory_points = { 9809 5 }
+
 	}
 
 	provinces={
-		937 3922 6913 9809 9821 11858 
+		937 6913 9809 9821 11858 
 	}
+	manpower=895500
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

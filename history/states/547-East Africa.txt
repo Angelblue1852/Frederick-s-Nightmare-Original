@@ -4,11 +4,10 @@ state={
 	name="STATE_547" #Kenya
 	manpower = 3392000
 	
-	state_category = state_level_6
+	state_category = rural
 
 	history={
 		owner = FRA
-		add_core_of = KEN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -17,8 +16,12 @@ state={
 			}
 		}
 		victory_points = {
+			1939 2
+		}
+		victory_points = {
 			5210 1
 		}
+		add_core_of = KEN
 	}
 
 	provinces={

@@ -344,24 +344,6 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
 	}
-	
-	navy = {
-		name = "Turkish Navy"
-		base = 9833
-		location = 9833
-		ship = { name = "Suleiman" definition = battleship equipment = { battleship_1 = { amount = 1 owner = TUR } } }
-		ship = { name = "Mehmed II" definition = battleship equipment = { battleship_1 = { amount = 1 owner = TUR } } }
-		ship = { name = "Mehmed V" definition = battleship equipment = { battleship_1 = { amount = 1 owner = TUR } } }
-		ship = { name = "Mehmed VI" definition = battleship equipment = { battleship_1 = { amount = 1 owner = TUR } } }
-		ship = { name = "Istanbul" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TUR } } }
-		ship = { name = "Ankara" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TUR } } }
-		ship = { name = "Philadelphia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
-		ship = { name = "Sofia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
-		ship = { name = "Syria" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
-		ship = { name = "Iraq" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
-		ship = { name = "Palestine" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
-		ship = { name = "Mustafa Kemal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUR } } }
-	}
 }
 
 air_wings = {

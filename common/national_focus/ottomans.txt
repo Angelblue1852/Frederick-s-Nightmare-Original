@@ -1837,7 +1837,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {}
 		available = {
-			763 = {
+			453 = {
 				OWNER = {
 					NOT = { original_tag = ROOT }
 					NOT = { is_in_faction_with = ROOT }
@@ -1853,7 +1853,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			763 = {
+			453 = {
 				OWNER = { country_event = { id = turkey.3 days = 1 } }
 			}
 		}

@@ -4,21 +4,22 @@ state=
 	name="STATE_628"
 	manpower = 3525715
 	
-	state_category = state_level_6
+	state_category = rural
 	
 	history=
 	{
-		owner = SPR
-		add_core_of = PHI
+		owner = SWE
 		buildings = {
 			infrastructure = 3
 			12118 = {
 				naval_base = 1
 			}
 		}
+		
 		victory_points = {
 			12118 1 
 		}
+		add_core_of = PHI
 	}
 
 	provinces={

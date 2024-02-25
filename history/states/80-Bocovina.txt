@@ -3,17 +3,20 @@ state={
 	name="STATE_80"
 	manpower = 474600
 	
-	state_category = state_level_6
+	state_category = rural
 	
 	history=
 	{
+		victory_points = {
+			577 1 
+		}
 		owner = AUS
-		add_core_of = ROM
-		add_core_of = UKR
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
 		}
+		add_core_of = UKR
+		add_core_of = ROM
 	}
 	provinces={
 		577 9548

@@ -2,35 +2,34 @@
 state={
 	id=51
 	name="STATE_51"
-	manpower = 6144743
 	resources={
-		steel=54
+		steel=30.000
 	}
-	
-	state_category = state_level_16
-	
+
 	history={
 		owner = FRA
-		add_core_of = WES
 		victory_points = {
-			6469 20
+			6469 10 
 		}
 		victory_points = {
 			587 5 
 		}
 		buildings = {
 			infrastructure = 8
-			arms_factory = 1
-			industrial_complex = 1
+			arms_factory = 3
+			industrial_complex = 2
 			air_base = 3
 
 		}
-		
-		set_state_flag = german_core_state
+		add_core_of = FRA
+		add_core_of = WES
+
 	}
 
 	provinces={
 		587 3444 3547 9522 
 	}
-	
+	manpower=6144743
+	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

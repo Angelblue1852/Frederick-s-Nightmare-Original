@@ -353,6 +353,7 @@ ideas = {
 					has_focus_tree = france_focus
 					has_focus_tree = generic_focus
 					has_focus_tree = mexico_focus
+					has_focus_tree = quebec_focus
 					has_focus_tree = usa_focus
 				}
 			}
@@ -392,6 +393,7 @@ ideas = {
 					has_focus_tree = mexico_focus
 					has_focus_tree = ottoman_empire_focus
 					has_focus_tree = prussia_focus
+					has_focus_tree = quebec_focus
 					has_focus_tree = sweden_focus
 					has_focus_tree = usa_focus
 				}
@@ -416,6 +418,13 @@ ideas = {
 					has_completed_focus = PRS_defend_prussian_democracy
 				}
 				if = { 
+					limit = { has_focus_tree = quebec_focus }
+					OR = {
+						has_completed_focus = CAN_liberal_values
+						has_completed_focus = CAN_reinforce_cultural_francophilia
+					}
+				}
+				if = { 
 					limit = { has_focus_tree = usa_focus }
 					has_completed_focus = USA_pass_the_civil_rights_act
 				}
@@ -431,6 +440,7 @@ ideas = {
 				OR = {
 					has_focus_tree = generic_focus
 					has_focus_tree = japan_focus
+					has_focus_tree = quebec_focus
 					has_focus_tree = usa_focus
 				}
 			}
@@ -440,6 +450,10 @@ ideas = {
 				if = { 
 					limit = { has_focus_tree = generic_focus }
 					has_completed_focus = generic_assault_divisions
+				}
+				if = { 
+					limit = { has_focus_tree = quebec_focus }
+					has_completed_focus = CAN_socialistic_nationalism
 				}
 				if = { 
 					limit = { has_focus_tree = usa_focus }
@@ -463,6 +477,7 @@ ideas = {
 					has_focus_tree = naples_focus
 					has_focus_tree = ottoman_empire_focus
 					has_focus_tree = prussia_focus
+					has_focus_tree = quebec_focus
 					has_focus_tree = sweden_focus
 					has_focus_tree = usa_focus
 				}
@@ -486,6 +501,10 @@ ideas = {
 				if = { 
 					limit = { has_focus_tree = prussia_focus }
 					has_completed_focus = PRS_pan_nationalistic_ambition
+				}
+				if = { 
+					limit = { has_focus_tree = quebec_focus }
+					has_completed_focus = CAN_government_propaganda
 				}
 				if = { 
 					limit = { has_focus_tree = usa_focus }
@@ -600,12 +619,17 @@ ideas = {
 					has_focus_tree = mexico_focus
 					has_focus_tree = naples_focus
 					has_focus_tree = prussia_focus
+					has_focus_tree = quebec_focus
 					has_focus_tree = usa_focus
 				}
 			}
 			allowed = {
 			}
 			available = {
+				if = { 
+					limit = { has_focus_tree = quebec_focus }
+					has_completed_focus = CAN_dynamique_generale
+				}
 			}
 			traits = { fast_tank_manufacturer }
 			cost = 250
@@ -622,6 +646,7 @@ ideas = {
 					has_focus_tree = ohio_focus
 					has_focus_tree = ottoman_empire_focus
 					has_focus_tree = prussia_focus
+					has_focus_tree = quebec_focus
 					has_focus_tree = usa_focus
 				}
 			}

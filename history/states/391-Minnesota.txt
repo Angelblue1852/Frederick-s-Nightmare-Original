@@ -2,20 +2,20 @@
 state={
 	id=391
 	name="STATE_391"
-	manpower = 463952
-	state_category = state_level_11
+	manpower = 2563952
+	state_category = city
 
 	resources={
-		steel=208
+		steel=110 # was: 208
 	}
 
 	history={
 		owner = LOU
-		add_core_of = LOU
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 1
+			industrial_complex = 3
 		}
+		add_core_of = LOU
 		victory_points = {
 			1866 5 
 		}

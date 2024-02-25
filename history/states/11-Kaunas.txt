@@ -4,12 +4,10 @@ state={
 	name="STATE_11"
 	manpower = 1353130
 	
-	state_category = state_level_8
+	state_category = town
 	
 	history={
 		owner = SOV
-		add_core_of = LIT
-		add_core_of = SOV
 		victory_points = {
 			6296 5
 		}
@@ -19,6 +17,8 @@ state={
 			industrial_complex = 3
 			air_base = 4
 		}
+		add_core_of = SOV
+		add_core_of = LIT
 	}
 
 	provinces={

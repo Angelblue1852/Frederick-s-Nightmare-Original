@@ -2,18 +2,18 @@
 state={
 	id=369
 	name="STATE_369"
-	manpower = 114588
+	manpower = 2614588
 	
-	state_category = state_level_11
+	state_category = city
 
 	history={
 		owner = LOU
-		add_core_of = LOU
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
+			industrial_complex = 3
 			air_base = 4
 		}
+		add_core_of = LOU
 		victory_points = {
 			6696 1 
 		}

@@ -2,13 +2,12 @@
 state={
 	id=370
 	name="STATE_370"
-	manpower = 209820
+	manpower = 2009820
 	
-	state_category = state_level_11
+	state_category = city
 
 	history={
 		owner = LOU
-		add_core_of = LOU
 		victory_points = {
 			4464 1 
 		}
@@ -20,6 +19,7 @@ state={
 				naval_base = 4
 			}
 		}
+		add_core_of = LOU
 	}
 
 	provinces={

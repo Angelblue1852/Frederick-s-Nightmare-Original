@@ -4,16 +4,16 @@ state={
 	name="STATE_437" # Indore
 	manpower = 8402500
 
-	state_category = state_level_9
+	state_category = rural
 
 	history={
-		owner = JAB
-		add_core_of = JAB
+		owner = MUG
+		add_core_of = MUG
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 3
-			arms_factory = 1
+			industrial_complex = 1
 		}
+
 	}
 
 	provinces={

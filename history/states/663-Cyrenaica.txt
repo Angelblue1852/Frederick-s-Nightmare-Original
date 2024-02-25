@@ -3,15 +3,14 @@ state={
 	name="STATE_663"
 	manpower = 8808
 	
-	state_category = state_level_0
+	state_category = wasteland
 
 	history={
 		owner = NAP
-		add_core_of = LBA
-		add_claim_by = ITA
 		buildings = {
 			infrastructure = 1
 		}
+		add_core_of = LBA
 	}
 
 	provinces={

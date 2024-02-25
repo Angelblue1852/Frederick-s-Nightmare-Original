@@ -4,16 +4,16 @@ state={
 	name="STATE_293"
 	manpower = 2489500
 	
-	state_category = state_level_6
+	state_category = rural
 	
 	resources={
-		oil=1
+		oil=1 # was: 1
 	}
 	history={
-		owner = ENG
-		add_core_of = YEM
+		owner = TUR
 		buildings = {
 			infrastructure = 3
+			arms_factory = 1
 			industrial_complex = 1
 			10840 = {
 				naval_base = 1
@@ -22,6 +22,7 @@ state={
 		victory_points = {
 			10840 3 
 		}
+		add_core_of = YEM
 	}
 
 	provinces={

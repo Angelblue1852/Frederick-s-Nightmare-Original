@@ -2,18 +2,18 @@
 state={
 	id=395
 	name="STATE_395"
-	manpower = 1130651
-	state_category = state_level_20
+	manpower = 7630651
+	state_category = megalopolis
 
 	history={
 		owner = LOU
-		add_core_of = LOU
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
-			industrial_complex = 3
+			industrial_complex = 11
 			air_base = 3
 		}
+		add_core_of = LOU
 		victory_points = {
 			9450 30.0
 		}

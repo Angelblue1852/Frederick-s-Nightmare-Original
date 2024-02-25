@@ -4,19 +4,22 @@ state={
 	name="STATE_442"
 	manpower = 4684400
 	
-	state_category = state_level_6
+	state_category = rural
 
 	history={
-		owner = AFG
-		add_core_of = AFG
-		add_core_of = PAK
+		victory_points = {
+			12763 3
+		}
+		owner = MUG
+		add_core_of = MUG
 		buildings = {
 			infrastructure = 3
 			air_base = 3
 		}
+		add_core_of = PAK
 	}
 
 	provinces={
-		1978 2084 4558 4998 12717 12763 
+		1978 4558 4998 12717 12763 
 	}
 }

@@ -4,18 +4,21 @@ state=
 	name="STATE_182"
 	manpower = 387900
 	
-	state_category = state_level_6
+	state_category = rural
 	history=
 	{
-		owner = GRE
+		owner = TUR
 		victory_points = {
-			9940 1 
+			9940 5
+		}
+		victory_points = {
+			12058 3
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			air_base = 1
-			4170 = {
+			12058 = {
 				naval_base = 1
 			}
 			9940 = {

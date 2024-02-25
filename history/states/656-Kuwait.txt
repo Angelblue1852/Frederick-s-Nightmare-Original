@@ -3,11 +3,11 @@ state={
 	name="STATE_656"
 	manpower = 80000
 	
-	state_category = state_level_6
+	state_category = rural
 	
 	history={
+		add_core_of = KUW
 		owner = TUR
-		add_core_of = IRQ
 		victory_points = {
 			8085 1 
 		}

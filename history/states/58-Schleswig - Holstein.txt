@@ -2,25 +2,27 @@ state= {
 	id=58
 	name="STATE_58"
 	manpower = 3248150 
-	state_category = state_level_13
+	state_category = large_city
 	
 	history=
 	{
+		victory_points = {
+			6389 10 
+		}
+		victory_points = {
+			9347 20
+		}
 		owner = PRS
-		add_core_of = PRS
-		victory_points = { 6389 10 }	#Kiel
-		victory_points = { 9347 20 }	#Hamburg
 		buildings = {
 			infrastructure = 6
-			arms_factory = 3
-			industrial_complex = 3
-			dockyard = 2
+			arms_factory = 2
+			dockyard = 6
 			air_base = 5
-			6389 = { naval_base = 9 }
-			9347 = { naval_base = 9 }
+			6389 ={
+				naval_base = 8
+			}
 		}
-		
-		set_state_flag = german_core_state
+		add_core_of = PRS
 	}
 
 	provinces= {

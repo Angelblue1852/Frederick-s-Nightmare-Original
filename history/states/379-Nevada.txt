@@ -4,22 +4,20 @@ state={
 	name="STATE_379"
 	manpower = 91057
 	
-	state_category = state_level_6
+	state_category = rural
 	
 	resources={
-		steel=136
-		tungsten=62
-		aluminium=44
+		steel=70 # was: 136
+		tungsten=32 # was: 62
+		aluminium=25 # was: 44
 	}
 
 	history={
-		owner = CAL
-		add_core_of = CAL
+		owner = NAT
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
-			arms_factory = 1
 		}
+		add_core_of = NAT
 	}
 
 	provinces={

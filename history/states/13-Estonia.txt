@@ -4,13 +4,11 @@ state={
 	name="STATE_13"
 	manpower = 730660
 	resources={
-		steel=3
+		steel=2 # was: 3
 	}
-	state_category = state_level_8
+	state_category = town
 	history={
 		owner = SOV
-		add_core_of = EST
-		add_core_of = SOV
 		victory_points = {
 			3152 5 
 		}
@@ -24,6 +22,8 @@ state={
 				coastal_bunker = 1
 			}
 		}
+		add_core_of = SOV
+		add_core_of = EST
 	}
 
 	provinces={

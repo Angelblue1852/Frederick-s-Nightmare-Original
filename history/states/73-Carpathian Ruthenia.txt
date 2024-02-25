@@ -3,13 +3,15 @@ state={
 	name="STATE_73"
 	manpower = 854300
 	
-	state_category = state_level_6
+	state_category = rural
 	
 	history={
+		victory_points = {
+			3548 1 
+		}
 		owner = AUS
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
 		}
 		add_core_of = SLO
 		add_core_of = HUN

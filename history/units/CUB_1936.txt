@@ -91,19 +91,6 @@ units = {
 		start_experience_factor = 0.25
 		start_equipment_factor = 0.6
 	}
-
-	navy = {
-		name = "Flota de Florida"
-		base = 1843				#Miami
-		location = 1843			#Miami
-		ship = { name = "Comunismo" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PRS } } }
-		ship = { name = "Havana" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PRS } } }
-		ship = { name = "Marx" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
-		ship = { name = "Cuba" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
-		ship = { name = "Dominica" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
-		ship = { name = "Puerto Rico" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
-		ship = { name = "México" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
-	}
 }
 
 air_wings = {

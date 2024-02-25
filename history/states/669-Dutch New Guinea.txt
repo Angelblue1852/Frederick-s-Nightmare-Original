@@ -3,7 +3,7 @@ state={
 	name="STATE_669"
 	manpower = 314300
 
-	state_category = state_level_3
+	state_category = pastoral
 
 	history= {
 		owner = AST

@@ -4,16 +4,16 @@ state={
 	name="STATE_538" # Central Congo
 	manpower = 1693974
 	
-	state_category = state_level_0
+	state_category = wasteland
 	resources={
-		rubber=5
+		rubber=5 # was: 5
 	}
 	history={
 		owner = FRA
-		add_core_of = COG
 		buildings = {
 			infrastructure = 1
 		}
+		add_core_of = COG
 	}
 
 	provinces={

@@ -4,7 +4,6 @@ state={
 
 	history={
 		owner = CAN
-		add_core_of = CAN
 		buildings = {
 			infrastructure = 2
 			air_base = 1
@@ -14,6 +13,8 @@ state={
 			}
 
 		}
+		#add_core_of = SOV
+		#add_core_of = CAN
 		victory_points = {
 			13090 1 
 		}
@@ -28,5 +29,5 @@ state={
 	}
 	manpower=67500
 	buildings_max_level_factor=1
-	state_category = state_level_6
+	state_category="rural"
 }

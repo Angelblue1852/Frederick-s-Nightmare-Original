@@ -4,13 +4,20 @@ state=
 	name="STATE_269"
 	manpower = 344700
 	
-	state_category = state_level_2
+	state_category = enclave
 	
 	history= {
+		victory_points = { 
+			10833 1
+		}
+		victory_points = { 
+			5068 1
+		}
 		owner = ETH
+		add_core_of = SOM
 		buildings = {
 			infrastructure = 3
-			12759 = {
+			10833 = {
 				naval_base = 1
 			}
 		}

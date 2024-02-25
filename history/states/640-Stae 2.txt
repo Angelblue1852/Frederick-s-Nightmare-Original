@@ -4,11 +4,11 @@ state={
 	name="STATE_640" # Mandalay
 	manpower = 3944600
 	
-	state_category = state_level_8
+	state_category = town
 
 	history={
-		owner = BUR
 		add_core_of = BUR
+		owner = BUR
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -19,6 +19,7 @@ state={
 		victory_points = {
 			4425 1 
 		}
+
 	}
 	
 	provinces={

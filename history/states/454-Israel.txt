@@ -4,7 +4,7 @@ state={
 	name="STATE_454" #Palestine
 	manpower = 933142
 	
-	state_category = state_level_6
+	state_category = rural
 
 	history={
 		owner = TUR
@@ -16,8 +16,12 @@ state={
 				naval_base = 3
 			}
 		}
-		victory_points = { 1086 20 }	#Jerusalem
-		victory_points = { 4206 5 }		#Tel Aviv
+		victory_points = {
+			1086 1 
+		}
+		victory_points = {
+			4206 1 
+		}
 		add_core_of = PAL
 		add_core_of = ISR
 	}

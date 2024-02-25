@@ -1,0 +1,189 @@
+﻿capital = 361
+
+set_research_slots = 4
+
+set_stability = 0.6
+set_war_support = 0.4
+
+oob = "USA_1936"
+set_convoys = 500
+
+add_offsite_building = { type = industrial_complex level = 3 }
+add_offsite_building = { type = arms_factory level = 1 }
+
+set_variable = { autocratic_insurgency_progress = 0 }
+set_variable = { communist_insurgency_progress = 0 }
+set_variable = { democratic_insurgency_progress = 0 }
+set_variable = { fascist_insurgency_progress = 0 }
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	motorised_infantry = 1
+	
+	tech_support = 1
+	
+	gw_artillery = 1
+	
+	gwtank = 1
+	basic_light_tank = 1
+	
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	transport = 1
+	early_carrier = 1
+	basic_carrier = 1
+	early_submarine = 1
+	basic_submarine = 1
+	
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+}
+
+add_ideas = {
+	libertarian_trade
+	laissez_faire
+	secularism
+	pacifism
+}
+add_ideas = {
+	racial_segregation
+	economic_crisis4
+}
+add_ideas = {
+	agricultural_barons
+	aristocratic_elites
+	big_banks
+	leftist_intellectuals
+	suffragettes
+}
+
+add_opinion_modifier = { target = MEX modifier = alamo_massacre }
+
+set_politics = {
+	parties = {
+		communism = { popularity = 16.10 }
+		neutrality = { popularity = 37.40 }	#Democrats
+		democratic = { popularity = 40.25 }	#Republicans
+		fascism = { popularity = 6.25 }
+	}
+	ruling_party = democratic
+	last_election = "1932.11.7"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "James W. Wadsworth"
+	desc = "leader_desc_USA_james_w_wadsworth"
+	picture = "James_W_Wadsworth_Jr.dds"
+	ideology = conservatism
+}
+create_country_leader = {
+	name = "Al Smith"
+	picture = "Al_Smith.dds"
+	ideology = authoritarian_conservatism
+}
+create_country_leader = {
+	name = "William Z. Foster"
+	picture = "William_Z_Foster.dds"
+	ideology = anti_revisionism
+}
+create_country_leader = {
+	name = "Charles A. Lindbergh"
+	picture = "Charles_A_Lindbergh.dds"
+	ideology = fascism_ideology
+}
+
+create_field_marshal = {
+	name = "Dwight D. Eisenhower"
+	picture = "generals/Dwight_D_Eisenhower.dds"
+	traits = { defensive_doctrine }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "George Patton"
+	picture = "generals/George_Patton.dds"
+	traits = { panzer_leader }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Mark Clark"
+	picture = "generals/Mark_Clark.dds"
+	traits = {}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "George Marshall"
+	picture = "generals/George_Marshall.dds"
+	traits = { old_guard }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Chester W. Nimitz"
+	picture = "admirals/Chester_W_Nimitz.dds"
+	traits = { blockade_runner }
+	skill = 4
+}
+create_navy_leader = {
+	name = "Raymond Spruance"
+	picture = "admirals/Raymond_Spruance.dds"
+	traits = { seawolf }
+	skill = 3
+}
+create_navy_leader = {
+	name = "Ernest King"
+	picture = "admirals/Ernest_King.dds"
+	traits = { superior_tactician }
+	skill = 2
+}
+create_navy_leader = {
+	name = "Charles M. Cooke, Jr."
+	picture = "admirals/Charles_M_Cooke.dds"
+	traits = { old_guard_navy ironside }
+	skill = 2
+}
+create_navy_leader = {
+	name = "Frank J. Fletcher"
+	picture = "admirals/Frank_J_Fletcher.dds"
+	traits = { old_guard_navy air_controller }
+	skill = 2
+}
+create_navy_leader = {
+	name = "Arleigh Burke"
+	picture = "admirals/Arleigh_Burke.dds"
+	traits = { fly_swatter }
+	skill = 1
+}
+create_navy_leader = {
+	name = "William Halsey Jr."
+	picture = "admirals/William_Halsey.dds"
+	traits = { old_guard_navy spotter }
+	skill = 1
+}

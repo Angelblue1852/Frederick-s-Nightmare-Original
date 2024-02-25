@@ -3,15 +3,17 @@ state={
 	id=424
 	name="STATE_424" # Madras
 	manpower = 15791700
-	state_category = state_level_6
+	state_category = rural
 	
+
 	history={
-		owner = HYD
-		add_core_of = HYD
+		owner = JAB
+		add_core_of = JAB
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
+
 	}
 
 	provinces={

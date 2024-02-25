@@ -3,19 +3,19 @@ state= {
 	name="STATE_380"
 	manpower = 507846
 	
-	state_category = state_level_6
+	state_category = rural
 	
 	resources={
-		tungsten=106
+		tungsten=76 # was: 106
 	}
 
 	history={
 		owner = NAT
-		add_core_of = NAT
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 2
+			industrial_complex = 1
 		}
+		add_core_of = NAT
 		victory_points = {
 			4865 1 
 		}

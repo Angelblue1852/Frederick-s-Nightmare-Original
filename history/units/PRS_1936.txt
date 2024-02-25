@@ -364,39 +364,6 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 	}
-
-	navy = {
-		name = "Nordseeflotte"
-		base = 9347				#Hamburg
-		location = 9347			#Hamburg
-		ship = { name = "Preußen" definition = battleship equipment = { battleship_1 = { amount = 1 owner = PRS } } }
-		ship = { name = "König Wilhelm" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PRS } } }
-		ship = { name = "Otto von Bismarck" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
-		ship = { name = "Hamburg" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
-	}
-
-	navy = {
-		name = "Ostseeflotte"
-		base = 6332				#Königsberg
-		location = 6332			#Königsberg
-		ship = { name = "Deutschland" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PRS } } }
-		ship = { name = "Berlin" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PRS } } }
-		ship = { name = "Herzog Johann" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
-		ship = { name = "General Clausewitz" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
-		ship = { name = "Breslau" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }
-	}
-
-	navy = {
-		name = "Unterseeabteilung"
-		base = 6389				#Kiel
-		location = 6389			#Kiel
-		ship = { name = "U-1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PRS } } }
-		ship = { name = "U-2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PRS } } }
-		ship = { name = "U-3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PRS } } }
-		ship = { name = "U-4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PRS } } }
-		ship = { name = "U-5" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PRS } } }
-		ship = { name = "U-6" definition = submarine equipment = { submarine_1 = { amount = 1 owner = PRS } } }
-	}
 }
 
 air_wings = {

@@ -4,11 +4,11 @@ state={
 	name="STATE_461"
 	manpower = 3197719
 	
-	state_category = state_level_6
+	state_category = rural
 	
 	history={
 		owner = SPR
-
+		add_core_of = MOR
 		victory_points = {
 			7069 10 
 		}

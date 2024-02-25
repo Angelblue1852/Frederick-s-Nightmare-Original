@@ -4,17 +4,19 @@ state={
 	name="STATE_447"
 	manpower = 3859239
 	resources={
-		oil=2
+		oil=1 # was: 2
 	}
 	
-	state_category = state_level_8
+	state_category = town
 
 	history={
 		owner = EGY
 		add_core_of = EGY
+		
 		victory_points = {
 			4076 10 
 		}
+		
 		victory_points = {
 			1071 1 
 		}		
@@ -26,6 +28,8 @@ state={
 				naval_base = 8
 			}
 		}
+
+		add_core_of = EGY
 	}
 
 	provinces={

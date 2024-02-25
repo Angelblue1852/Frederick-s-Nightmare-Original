@@ -4,7 +4,7 @@ state=
 	name="STATE_164"
 	manpower = 120000
 	
-	state_category = state_level_2
+	state_category = small_island
 	
 	history=
 	{

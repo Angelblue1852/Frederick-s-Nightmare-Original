@@ -4,13 +4,15 @@ state={
 	manpower = 836353
 
 
-	state_category = state_level_8
+	state_category = town
 
 	history={
 		owner = PRS
-		add_core_of = PRS
 		victory_points = {
-			321 1
+			321 5
+		}
+		victory_points = {
+			11305 3
 		}
 		buildings = {
 			infrastructure = 6
@@ -21,11 +23,10 @@ state={
 			}
 			air_base = 3
 		}
-		
-		set_state_flag = german_core_state
+		add_core_of = PRS
 	}
 
 	provinces={
-		268 293 321 3258 9294 11276 11305 
+		268 293 321 9294 11276 11305 
 	}
 }

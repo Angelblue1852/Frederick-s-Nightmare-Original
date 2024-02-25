@@ -2,15 +2,19 @@ state={
 	id=692
 	name="STATE_692"
 	manpower=76485
-	state_category = state_level_2
+	state_category = small_island
 
 	history={
+		add_core_of = BAS
 		owner = FRA
 		buildings = {
 			infrastructure = 4
 			11350 = {
 				naval_base = 1
 			}
+		}
+		victory_points = {
+			11350 1
 		}
 	}
 	

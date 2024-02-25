@@ -122,48 +122,6 @@ units = {
 		start_equipment_factor = 1.0
 	}
 	
-	navy = {
-		name = "Submarine Force"
-		base = 7202			#Charleston
-		location = 7202			#Charleston
-		ship = { name = "USS Mark Twain" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Thomas Edison" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Lewis and Clarke" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Robert Oppenheimer" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Albert Taylor" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Leo Young" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-	}
-	
-	navy = {
-		name = "1st Naval Force"
-		base = 788			#Norfolk
-		location = 788			#Norfolk
-		ship = { name = "USS New York" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Benjamin Franklin" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Calvin Coolidge" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Theodore Roosevelt" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
-	}
-	
-	navy = {
-		name = "2nd Naval Force"
-		base = 6984			#Baltimore
-		location = 6984			#Baltimore
-		ship = { name = "USS Georgia" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Lafayette" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Steuben" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
-	}
-	
-	navy = {
-		name = "3rd Naval Force"
-		base = 6732			#Boston
-		location = 6732			#Boston
-		ship = { name = "USS Virginia" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS George Washington" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Thomas Jefferson" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS American Revolution" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
-		ship = { name = "USS Yankee" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
-	}
-	
 }
 
 air_wings = {

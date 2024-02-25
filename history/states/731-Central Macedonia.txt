@@ -3,22 +3,30 @@ state={
 	name="STATE_731"
 	manpower=1155700
 	
-	state_category = state_level_8
+	state_category = town
 
 	history={
 		owner = TUR
-		add_core_of = GRE
 		victory_points = {
 			11818 5 
 		}
+		#victory_points = {
+		#	3844 1
+		#}
 		buildings = {
 			infrastructure = 5
+			arms_factory = 1
 			industrial_complex = 2
 			air_base = 2
 			11818 = {
 				naval_base = 3
+
 			}
+
 		}
+		add_core_of = GRE
+		add_core_of = BUL
+
 	}
 	
 	provinces={

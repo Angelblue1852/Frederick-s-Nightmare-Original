@@ -3,21 +3,18 @@ state={
 	id=53
 	name="STATE_53"
 	manpower = 1453365
-	resources={
-		aluminium=9
-		steel=4
-	}
 	
-	state_category = state_level_11
+	state_category = city
 
 	history={
 		owner = BAV
-		add_core_of = BAV
 		buildings = {
 			infrastructure = 6
 		}
-		
-		set_state_flag = german_core_state
+		add_core_of = BAV
+		victory_points = {
+			9515 3
+		}
 	}
 
 	provinces={

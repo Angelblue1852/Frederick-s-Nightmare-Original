@@ -4,14 +4,19 @@ state={
 	name="STATE_549"
 	manpower = 3694293
 	
-	state_category = state_level_6
+	state_category = rural
 	
 	
 	history={
-		owner = EGY
+		victory_points = {
+			2096 1
+		}
+		owner = FRA
+		add_core_of = SUD
 		buildings = {
 			infrastructure = 3
 		}
+
 	}
 
 	provinces={

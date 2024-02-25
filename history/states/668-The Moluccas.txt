@@ -4,10 +4,10 @@ state={
 	name="STATE_668"
 	manpower = 579100
 	
-	state_category = state_level_3
+	state_category = pastoral
 
 	history={
-		owner = SPR
+		owner = FRA
 		add_core_of = INS
 		buildings = {
 			infrastructure = 3

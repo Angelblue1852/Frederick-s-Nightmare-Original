@@ -4,14 +4,17 @@ state={
 	name="STATE_433" # Rajasthan
 	manpower = 11786000
 	
-	state_category = state_level_8
+	state_category = town
 	
 	
 	resources={
-		tungsten=42
+		tungsten=32 # was: 42
 	}
 
 	history={
+		victory_points = {
+			2054 1
+		}
 		owner = MUG
 		add_core_of = MUG
 		buildings = {

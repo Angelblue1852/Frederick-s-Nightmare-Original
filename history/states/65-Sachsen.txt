@@ -4,17 +4,17 @@ state={
 	name="STATE_65"
 	manpower = 5592576
 	resources={
-		steel=90
+		steel=53 # was: 90
 	}
 
-	state_category = state_level_16
+	state_category = metropolis
+
 
 	history={
 		owner = SAX
-		add_core_of = SAX
 		buildings = {
 			infrastructure = 7
-			arms_factory = 3
+			arms_factory = 2
 			industrial_complex = 7
 		}
 		victory_points = {
@@ -23,8 +23,14 @@ state={
 		victory_points = {
 			3535 5 
 		}
-		
-		set_state_flag = german_core_state
+		add_core_of = SAX
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 2
+				arms_factory = 5
+				industrial_complex = 10
+			}
+		}
 	}
 
 	provinces={

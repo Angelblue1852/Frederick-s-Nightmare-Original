@@ -4,12 +4,9 @@ state={
 	name="STATE_115"
 	manpower = 3836571
 	
-	state_category = state_level_11
-	
+	state_category = city
 	history={
 		owner = NAP
-		add_core_of = NAP
-		add_core_of = ITA
 		victory_points = {
 			10074 20 
 		}
@@ -34,6 +31,8 @@ state={
 				naval_base = 3
 			}
 		}
+		add_core_of = NAP
+		add_core_of = ITA
 	}
 
 	provinces={

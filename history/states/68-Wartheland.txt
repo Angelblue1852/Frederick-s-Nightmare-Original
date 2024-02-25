@@ -4,23 +4,24 @@ state={
 	name="STATE_68"
 	manpower = 1250840
 	resources={
-		aluminium=24
+		aluminium=15 # was: 24
 	}
 
-	state_category = state_level_11
+	state_category = city
 
 	history={
+		victory_points = {
+			3473 1
+		}
 		owner = PRS
-		add_core_of = PRS
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 2
+			industrial_complex = 1
 		}
-		
-		set_state_flag = german_core_state
+		add_core_of = PRS
 	}
 
 	provinces={
-		444 478 537 3473 3572 6236 9387 9496 11415 11478 
+		444 537 3473 3572 6236 9387 11478 
 	}
 }

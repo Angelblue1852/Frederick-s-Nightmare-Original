@@ -13,16 +13,24 @@ SOV = {
 	color_ui = rgb { 50 100 50 }
 }
 FRA = {
-	color = rgb { 30 70 160 }
-	color_ui = rgb { 30 70 160 }
+	color = rgb { 40 150 250 }
+	color_ui = rgb { 40 150 250 }
 }
 SWE = {
 	color = rgb { 100 170 250 }
 	color_ui = rgb { 100 170 250 }
 }
 USA = {
-	color = rgb { 20 130 230 }
-	color_ui = rgb { 20 130 230 }
+	color = rgb { 0 110 210 }
+	color_ui = rgb { 0 110 210 }
+}
+PRS = {
+	color = rgb { 0 20 100 }
+	color_ui = rgb { 0 20 100 }
+}
+SER = {
+	color = rgb { 50 50 150 }
+	color_ui = rgb { 50 50 150 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
@@ -358,10 +366,6 @@ SYR = {
 	color_ui = rgb { 100  100  150 }
 }
 
-SER = {
-	color = rgb { 210 0 210 }
-	color_ui = rgb { 210 0 210 }
-}
 
 ICE = {
 	color = rgb { 100  125  175 }
@@ -414,8 +418,8 @@ MAL = {
 }
 
 MNT = {
-	color = rgb { 77  90  105 }
-	color_ui = rgb { 77  90  105 }
+	color = rgb { 0  170  170 }
+	color_ui = rgb { 0  170  170 }
 }
 
 BLR = {
@@ -531,10 +535,6 @@ OHI = {
 PAP = {
 	color = rgb { 200 180 0 }
 	color_ui = rgb { 200 180 0 }
-}
-PRS = {
-	color = rgb { 50 50 100 }
-	color_ui = rgb { 50 50 100 }
 }
 SAX = {
 	color = rgb { 150 130 40 }

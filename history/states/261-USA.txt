@@ -2,22 +2,35 @@ state={
 	id=261
 	name="STATE_261"
 	resources={
-		steel=48.000
-		aluminium=16.000
+		steel=28 # was: 48.000
+		aluminium=9 # was: 16.000
 	}
 	
-	state_category = state_level_16
+	state_category = metropolis
 
 	history={
 		owner = OHI
-		add_core_of = OHI
 		buildings = {
 			infrastructure = 7
-			arms_factory = 2
-			industrial_complex = 5
+			arms_factory = 1
+			industrial_complex = 6
+
 		}
-		victory_points = { 6855 5 }		#Britannia
-		victory_points = { 6890 10 }	#Georgeland
+		add_core_of = OHI
+		victory_points = {
+			6855 5 
+		}
+		victory_points = {
+			6890 10 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 7
+
+			}
+
+		}
+
 	}
 
 	provinces={

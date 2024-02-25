@@ -4,15 +4,12 @@ state=
 	name="STATE_100"
 	manpower = 115870
 	
-	state_category = state_level_6
+	state_category = rural
 	
 	
 	history=
 	{
 		owner = SWE
-		add_core_of = SWE
-		add_core_of = ICE
-		add_claim_by = DEN
 		victory_points = { 12674 1 }
 		buildings = {
 			infrastructure = 2
@@ -20,6 +17,7 @@ state=
 				naval_base = 1
 			}
 		}
+		add_core_of = ICE
 	}
 	provinces=
 	{

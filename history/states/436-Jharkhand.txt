@@ -4,10 +4,10 @@ state={
 	name="STATE_436" # Jabalpur
 	manpower = 14123100
 	
-	state_category = state_level_6
+	state_category = rural
 	
 	resources={
-		chromium=6
+		chromium=4 # was: 6
 	}
 
 	history={
@@ -15,9 +15,8 @@ state={
 		add_core_of = JAB
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 2
-			air_base = 3
 		}
+
 	}
 
 	provinces={

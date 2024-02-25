@@ -4,11 +4,10 @@ state={
 	name="STATE_553"
 	manpower = 1104000
 	
-	state_category = state_level_8
+	state_category = town
 
 	history={
 		owner = TUR
-		add_core_of = LEB
 		victory_points = {
 			792 5 
 		}
@@ -20,6 +19,8 @@ state={
 				naval_base = 3
 			}
 		}
+
+		add_core_of = LEB
 	}
 
 	provinces={

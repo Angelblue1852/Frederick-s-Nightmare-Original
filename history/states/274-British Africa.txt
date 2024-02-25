@@ -1,11 +1,10 @@
 state={
 	id=274
 	name="STATE_274"
-	
-	state_category = state_level_6
 
 	history={
 		owner = SWE
+		add_core_of = GHA
 		victory_points = {
 			10862 1 
 		}
@@ -13,8 +12,11 @@ state={
 			infrastructure = 3
 			10862 = {
 				naval_base = 2
+
 			}
+
 		}
+
 	}
 
 	provinces={
@@ -22,4 +24,5 @@ state={
 	}
 	manpower=3163600
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -3194,7 +3194,7 @@ focus_tree = {
 			has_full_control_of_state = 52		#Oberbayern
 			has_full_control_of_state = 53		#Niederbayern
 			has_full_control_of_state = 54		#Franken
-			has_full_control_of_state = 762		#Württemberg
+			has_full_control_of_state = 788		#Württemberg
 			has_full_control_of_state = 50		#Baden
 		}
 		bypass = {}

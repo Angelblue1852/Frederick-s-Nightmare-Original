@@ -4,18 +4,22 @@ state={
 	name="STATE_542"
 	manpower = 234000
 	
-	state_category = state_level_0
+	state_category = wasteland
 	
 	resources={
-		chromium=168
+		chromium=90 # was: 168
 	}
 
 	history={
-		owner = SPR
-		add_core_of = BOT
+		owner = SAF
 		buildings = {
 			infrastructure = 1
 		}
+		add_core_of = BOT
+		victory_points = {
+			8214 1
+		}
+
 	}
 
 	provinces={

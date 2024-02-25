@@ -4,11 +4,10 @@ state={
 	name="STATE_331"
 	manpower = 255060
 	
-	state_category = state_level_6
+	state_category = rural
 
 	history={
-		owner = CAN
-		add_core_of = CAN
+		owner = ENG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -16,6 +15,8 @@ state={
 				naval_base = 1
 			}
 		}
+		add_core_of = ENG
+		add_core_of = CAN
 	}
 
 	provinces={

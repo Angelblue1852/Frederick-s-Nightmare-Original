@@ -4,18 +4,20 @@ state={
 	name="STATE_328" # Kirin
 	manpower = 7536266
 	
-	state_category = state_level_6
+	state_category = rural
 
 	resources={
-		aluminium=10
+		aluminium=7 # was: 10
 	}
 
 	history={
 		owner = JAP
 		add_core_of = CHI
 		add_core_of = MAN
+		add_core_of = PRC
 		buildings = {
 			infrastructure = 4
+			#industrial_complex = 1
 		}
 		victory_points = {
 			4572 1

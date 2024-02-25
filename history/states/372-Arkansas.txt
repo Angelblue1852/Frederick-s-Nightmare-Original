@@ -2,22 +2,22 @@
 state={
 	id=372
 	name="STATE_372"
-	manpower = 254481
+	manpower = 1854481
 	
-	state_category = state_level_8
+	state_category = town
 	
 	resources={
-		aluminium=20
+		aluminium=14 # was: 20
 	}
 
 
 	history={
 		owner = LOU
-		add_core_of = LOU
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
+			industrial_complex = 2
 		}
+		add_core_of = LOU
 		victory_points = {
 			12489 1 
 		}

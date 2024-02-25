@@ -282,6 +282,7 @@
  fascist_influence:0 "Fascist Influence"
  fascist_tendencies:0 "Fascist Tendencies"
  fascist_tendencies_desc:0 "The people of this country has taken a liking to the ideological schools of thought of Rosenberg and Starace."
+ CAN_fascist_tendencies:0 "Ideals of 'Socialistic Nationalism'"
  finnish_independence_movement:0 "Finnish Independence Movement"
  finnish_independence_movement_desc:0 "Although Finland had been granted certain autonomy in the recent Poland-Finland Government Act of 1925, the Finnish resentment for Russian supremacy remains. The Finnish people, generally of Lutheran faith and mostly connected by liberal-democratic and pacifist political values, despise the tsarist ruling class of imperialistic dreamers as well as the Orthodox religious elite which was granted so much influence in Russian government by Nicholas II."
  fiat:0 "Fiat"

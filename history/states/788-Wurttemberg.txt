@@ -1,0 +1,28 @@
+
+state={
+	id=788
+	name="STATE_788"
+	resources={
+		aluminium=6.000
+	}
+
+	history={
+		owner = WUR
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 3
+
+		}
+		add_core_of = WUR
+
+	}
+
+	provinces={
+		9517 6555 9545 11499 519 3690 6934 9655 13126
+	}
+	manpower=4286854
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

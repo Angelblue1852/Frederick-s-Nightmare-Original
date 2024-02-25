@@ -169,7 +169,7 @@ ideas = {
 				communism_drift = -0.01
 				stability_factor = 0.05
 				war_support_factor = 0.05
-				research_time_factor = 0.05
+				research_speed_factor = -0.05
 				consumer_goods_factor = 0.02
 			}
 		}
@@ -188,7 +188,7 @@ ideas = {
 				communism_drift = -0.01
 				stability_factor = 0.05
 				war_support_factor = 0.05
-				research_time_factor = 0.05
+				research_speed_factor = -0.05
 				consumer_goods_factor = 0.02
 			}
 		}
@@ -319,7 +319,7 @@ ideas = {
 			modifier = {
 				democratic_drift = 0.02
 				communism_drift = 0.02
-				research_time_factor = -0.05
+				research_speed_factor = 0.05
 				consumer_goods_factor = 0.01
 			}
 		}
@@ -452,7 +452,7 @@ ideas = {
 				communism_drift = -0.01
 				stability_factor = 0.05
 				war_support_factor = 0.05
-				research_time_factor = 0.05
+				research_speed_factor = -0.05
 				consumer_goods_factor = 0.02
 			}
 		}
@@ -471,7 +471,7 @@ ideas = {
 				communism_drift = -0.01
 				stability_factor = 0.05
 				war_support_factor = 0.05
-				research_time_factor = 0.05
+				research_speed_factor = -0.05
 				consumer_goods_factor = 0.02
 			}
 		}
@@ -522,7 +522,7 @@ ideas = {
 				fascism_drift = 0.01
 				local_resources_factor = 0.2
 				stability_factor = -0.05
-				research_time_factor = 0.05
+				research_speed_factor = -0.05
 			}
 		}
 	
@@ -540,7 +540,7 @@ ideas = {
 				communism_drift = -0.01
 				stability_factor = 0.05
 				war_support_factor = 0.05
-				research_time_factor = 0.05
+				research_speed_factor = -0.05
 				consumer_goods_factor = 0.02
 			}
 		}
@@ -578,7 +578,7 @@ ideas = {
 				communism_drift = -0.01
 				stability_factor = 0.05
 				war_support_factor = 0.05
-				research_time_factor = 0.05
+				research_speed_factor = -0.05
 				consumer_goods_factor = 0.02
 			}
 		}

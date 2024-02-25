@@ -123,21 +123,6 @@ units = {
 		start_experience_factor = 0.25
 		start_equipment_factor = 0.75
 	}
-	navy = {
-		name = "Naval Fleet"
-		base = 12364		#Buenos Aires
-		location = 12364		#Buenos Aires
-		ship = { name = "La Plata" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "Ortiz" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "Buenos Aires" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "Asuncion" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "Montevideo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "Uruguay" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "Paraguay" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "Argentina" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "S1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ARG } } }
-		ship = { name = "S2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ARG } } }
-	}
 }
 
 air_wings = {

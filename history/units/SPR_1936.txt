@@ -365,36 +365,6 @@ units = {
 		start_experience_factor = 0.25
 		start_equipment_factor = 0.8
 	}
-	
-	navy = {
-		name = "Catalan Fleet"
-		base = 9764
-		location = 9764
-		ship = { name = "Spain" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "Iberia" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "Morocco" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "Spanish India" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "Equatorial Guinea" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "Madrid" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "Barcelona" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "Valencia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "Sevilla" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "Gibraltar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
-	}
-	navy = {
-		name = "Galician Fleet"
-		base = 758
-		location = 758
-		ship = { name = "Philippines" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "Bilbao" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "Coruna" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "Santiago" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "Valladolid" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "Burgos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "Tanger" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "Ceuta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "Manila" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
-	}
 }
 
 air_wings = {

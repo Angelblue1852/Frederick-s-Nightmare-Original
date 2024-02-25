@@ -4,12 +4,13 @@ state={
 	name="STATE_558"
 	manpower = 19757000
 	
-	state_category = state_level_6
+	state_category = rural
 	resources={
-		rubber=3
+		rubber=2 # was: 3
 	}
 	history={
 		owner = FRA
+		add_core_of = NGA
 		buildings = {
 			infrastructure = 3
 			arms_factory = 0
@@ -21,6 +22,7 @@ state={
 		victory_points = {
 			2050 1
 		}
+
 	}
 
 	provinces={

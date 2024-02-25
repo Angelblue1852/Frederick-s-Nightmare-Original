@@ -406,39 +406,6 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
 	}
-
-	navy = {
-		name = "Kriegsflotte"
-		base = 3943		#Zara
-		location = 3943		#Zara
-		ship = { name = "Österreich" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AUS } } }
-		ship = { name = "Franz Joseph" definition = battleship equipment = { battleship_1 = { amount = 1 owner = AUS } } }
-		ship = { name = "Erzherzog" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AUS } } }
-		ship = { name = "Ungarn" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AUS } } }
-		ship = { name = "Italien" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AUS } } }
-		ship = { name = "Böhmen" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AUS } } }
-		ship = { name = "Wien" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AUS } } }
-		ship = { name = "Salzburg" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AUS } } }
-		ship = { name = "Innsbruck" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AUS } } }
-		ship = { name = "Graz" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AUS } } }
-		ship = { name = "Leopold Berchtold" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AUS } } }
-		ship = { name = "Conrad von Hötzendorf" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AUS } } }
-		ship = { name = "Straußenburg" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
-		ship = { name = "Donau" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
-		ship = { name = "Lemberg" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
-		ship = { name = "Prag" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
-		ship = { name = "Venedig" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
-		ship = { name = "Zagreb" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
-		ship = { name = "Laibach" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
-	}
-	navy = {
-		name = "Unterseeabteilung"
-		base = 11584	#Venice
-		location = 11584	#Venice
-		ship = { name = "UbA" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AUS } } }
-		ship = { name = "UbB" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AUS } } }
-		ship = { name = "UbC" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AUS } } }
-	}
 }
 
 air_wings = {

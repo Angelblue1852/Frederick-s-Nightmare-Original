@@ -3,10 +3,14 @@ state={
 	name="STATE_689"
 	manpower = 1075000
 	
-	state_category = state_level_8
+	state_category = town
 
 	history={
+		add_core_of = JAM
 		owner = CUB
+		victory_points = {
+			12304 1 
+		}
 		buildings = {
 			infrastructure = 4
 			12304 = {

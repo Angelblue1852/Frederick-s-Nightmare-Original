@@ -4,17 +4,15 @@ state={
 	name="STATE_273" # Libyan Desert
 	manpower = 42633
 	
-	state_category = state_level_0
+	state_category = wasteland
 	impassable = yes
 
 	history={
 		owner = FRA
-		add_core_of = LBA
-		add_claim_by = ITA
-		add_claim_by = NAP
 		buildings = {
 			infrastructure = 0
 		}
+		add_core_of = LBA
 	}
 
 	provinces={

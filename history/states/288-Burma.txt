@@ -4,15 +4,15 @@ state={
 	name="STATE_288"
 	manpower = 10722500
 	
-	state_category = state_level_8
+	state_category = town
 	
 	resources={
-		rubber=4
+		rubber=3 # was: 4
 	}
 
 	history={
-		owner = BUR
 		add_core_of = BUR
+		owner = BUR
 		victory_points = {
 			1330 5 
 		}
@@ -24,6 +24,7 @@ state={
 				naval_base = 4
 			}
 		}
+
 	}
 
 	provinces={

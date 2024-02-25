@@ -2,21 +2,27 @@
 state={
 	id=392
 	name="STATE_392"
-	manpower = 170938
+	manpower = 2470938
 	
-	state_category = state_level_11
+	state_category = city
 
 	history={
 		owner = LOU
-		add_core_of = LOU
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 1
-			arms_factory = 1
+			industrial_complex = 4
 		}
+		add_core_of = LOU
 		victory_points = {
 			1770 3 
 		}
+
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 5
+			}
+		}
+
 	}
 
 	provinces={

@@ -128,26 +128,6 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.75
 	}
-	
-	navy = {
-		name = "Brazilian Navy"
-		base = 10980
-		location = 10980
-		ship = { name = "Brasil" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "Getúlio Vargas" definition = battleship equipment = { battleship_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "Rio de Janeiro" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "São Paulo" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "São Salvador" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "Recife" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "Fortaleza" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "Belem" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "Manaus" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "Tasso Fragoso" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "Isaías de Noronha" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "Washington Luís" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "Júlio Prestes" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
-		ship = { name = "Mena Barreto" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = BRA } } }
-	}
 }
 
 air_wings = {

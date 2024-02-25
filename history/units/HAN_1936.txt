@@ -120,26 +120,6 @@ units = {
 		start_experience_factor = 0.25
 		start_equipment_factor = 0.95
 	}
-	
-	navy = {
-		name = "Volksmarine"
-		location = 241
-		base = 241
-		ship = { name = "Karl Marx" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = HAN } } }
-		ship = { name = "Eugen Leviné" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = HAN } } }
-		ship = { name = "Wilhelm Pieck" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CUB } } }
-		ship = { name = "Ernst Thälmann" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = HAN } } }
-		ship = { name = "Manabendra Nath Roy" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MEX } } }
-		ship = { name = "Vladimir Lenin" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = MEX } } }
-		ship = { name = "Vyacheslav Molotov" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = HAN } } }
-		ship = { name = "Karl Liebknecht" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = HAN } } }
-		ship = { name = "Rosa Luxemburg" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = HAN } } }
-		ship = { name = "Rothai" definition = submarine equipment = { submarine_1 = { amount = 1 owner = HAN } } }
-		ship = { name = "Rotwal" definition = submarine equipment = { submarine_1 = { amount = 1 owner = HAN } } }
-		ship = { name = "Rotkarpfen" definition = submarine equipment = { submarine_1 = { amount = 1 owner = HAN } } }
-		ship = { name = "Rotlachs" definition = submarine equipment = { submarine_1 = { amount = 1 owner = HAN } } }
-		ship = { name = "Rotdelfin" definition = submarine equipment = { submarine_1 = { amount = 1 owner = HAN } } }
-	}
 }
 
 air_wings = {

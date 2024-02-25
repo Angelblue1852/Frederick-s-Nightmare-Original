@@ -4,10 +4,10 @@ state={
 	name="STATE_428"
 	manpower = 10590200
 	
-	state_category = state_level_11
 	
+	state_category = town
 	resources={
-		oil=4
+		oil=3 # was: 4
 	}
 
 	history={
@@ -18,12 +18,12 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 5
 			arms_factory = 1
 			9975 = {
 				naval_base = 2
 			}
 		}
+
 	}
 
 	provinces={

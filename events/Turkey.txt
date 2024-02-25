@@ -50,7 +50,7 @@ country_event = {
 	
 	option = {
 		name = turkey.3.o1
-		FROM = { transfer_state = 763 }
+		FROM = { transfer_state = 453 }
 		add_opinion_modifier = {
 			target = FROM modifier = territorial_dispute
 		}
@@ -65,7 +65,7 @@ country_event = {
 	option = {
 		name = turkey.3.o2
 		FROM = { 
-			create_wargoal = { target = ROOT type = take_state_focus generator = { 763 } }
+			create_wargoal = { target = ROOT type = take_state_focus generator = { 453 } }
 		}
 		ai_chance = { factor = 75 }
 	}

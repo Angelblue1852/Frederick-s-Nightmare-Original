@@ -3,14 +3,14 @@ state={
 	name="STATE_675"
 	manpower = 122093
 	
-	state_category = state_level_0
+	state_category = wasteland
 
 	history={
 		owner = TUR
-		add_core_of = IRQ
 		buildings = {
 			infrastructure = 1
 		}
+		add_core_of = IRQ
 	}
 	
 	provinces={

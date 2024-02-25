@@ -2,24 +2,25 @@
 state={
 	id=376
 	name="STATE_376"
-	manpower = 123316
+	manpower = 423316
 	
-	state_category = state_level_6
+	state_category = rural
 	
 	resources={
-		#oil=20
-		oil=3
-		#aluminium=52
-		aluminium=3
+		oil=14 # was: 20
+		aluminium=30 # was: 52
 	}
 
 
 	history={
 		owner = MEX
-		add_core_of = MEX
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
+		}
+		add_core_of = USA
+		victory_points = {
+			4975 1
 		}
 	}
 

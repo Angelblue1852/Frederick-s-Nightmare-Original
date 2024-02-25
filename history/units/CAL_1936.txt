@@ -98,40 +98,6 @@ units = {
 		start_experience_factor = 0.25
 		start_equipment_factor = 0.95
 	}
-	
-	navy = {
-		name = "1st Fleet"
-		base = 1562
-		location = 1562
-		ship = { name = "Californian Republic" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAL } } }
-		ship = { name = "California" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = CAL } } }
-		ship = { name = "Nevada" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = CAL } } }
-		ship = { name = "San Diego" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CAL } } }
-		ship = { name = "Spokane" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAL } } }
-		ship = { name = "Mariano G. Vallejo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL } } }
-	}
-	navy = {
-		name = "2nd Fleet"
-		base = 12211
-		location = 12211
-		ship = { name = "Oregon" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = CAL } } }
-		ship = { name = "Seattle" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CAL } } }
-		ship = { name = "San Francisco" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CAL } } }
-		ship = { name = "Sacramento" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAL } } }
-		ship = { name = "Mark Twain" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL } } }
-		ship = { name = "William Stephens" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL } } }
-	}
-	navy = {
-		name = "3rd Fleet"
-		base = 7315
-		location = 7315
-		ship = { name = "Washington" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = CAL } } }
-		ship = { name = "Los Angeles" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CAL } } }
-		ship = { name = "Portland" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAL } } }
-		ship = { name = "Las Vegas" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAL } } }
-		ship = { name = "Benjamin Harrison" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL } } }
-		ship = { name = "James K. Polk" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL } } }
-	}
 }
 
 air_wings = {
