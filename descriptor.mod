@@ -1,5 +1,11 @@
 name="Frederick's Nightmare"
 archive="fredericks_nightmare.zip"
+replace_path="common/ai_strategy_plans"
+replace_path="common/decisions"
+replace_path="common/countries"
+replace_path="common/ideas"
+replace_path="events"
+replace_path="gfx/flags"
 tags={
 	"Alternative History"
 	"Events"
@@ -8,4 +14,4 @@ tags={
 }
 picture="fredericks_nightmare.png"
 remote_file_id="1324155103"
-supported_version="1.5.*"
+supported_version="1.6.1"
